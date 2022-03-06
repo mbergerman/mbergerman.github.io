@@ -1,57 +1,33 @@
 navbar_entries:
-  - title: blog
-    url: blog
-
-  - title: acerca de mí
-    url: acerca de mí
-
   - title: contacto
     url: mailto:mbergerman@itba.edu.ar
 
+  # - title: acerca de mí
+  #   url: acerca de mí
+
+  # - title: posts
+  #   url: blog
+
 project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+  - title: Detección de arritmias en tiempo real
+    url: deteccion-de-arritmias-en-tiempo-real
+    desc: Detector de arritmias usando los algoritmos LMS y RLS.
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
+  - title: Electronic Filter Design Tool
+    url: https://github.com/mbergerman/FilterTool
+    desc: Herramienta para diseñar filtros a partir del uso de celdas con amplificadores operacionales.
 
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
+  - title: WaveForms Scope Python Plotter
+    url: https://github.com/mbergerman/WaveFormsScopePythonPlotter
+    desc: Graficador de señales de scope provenientes del programa Digilent WaveForms.
 
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
+  - title: CalcuPy
+    url: https://github.com/mbergerman/CalcuPy
+    desc: Mi primer proyecto en Python!
+          Una simple calculadora por consola.
 
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
-
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
 
 old_project_entries:
-  - title: Soopr
-    url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
-    highlight: NEW
-
-  - title: Cookie
-    url: https://github.com/abhinavs/cookie
-    desc: An open source landing website with supporting pages and integrated blog
-
-  - title: Moonwalk
-    url: https://github.com/abhinavs/moonwalk
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
-
-  - title: Humangous
-    url: https://www.humangous.co
-    desc: The better people know you, the better they collaborate
 
 footer_entries:
   - title: linkedin
@@ -64,35 +40,5 @@ footer_entries:
     url: mailto:mbergerman@itba.edu.ar
 
 misc_entries:
-  - title: this is an example vertical list
-    url: false
-
-  - title: you can show or hide using a boolean flag in _config.yml
-    url: false
-
-  - title: and you can add data in _data/home.yml
-    url: false
-
-  - title: Blog posts
-    post_list: true
-    url: false
-
-  - title: moonwalk on the Internet
-    url: false
-    entries:
-      - title: on Github
-        url: https://github.com/abhinavs/moonwalk
-
-      - title: originally built for abhinav's homepage
-        url: https://www.abhinav.co
-
-      - title: this list is scalable and can be nested
-        url: false
-        entries:
-          - title: this is nested inside a nested list
-            url: false
-
-          - title: it is easy to use, see _data/home.yml to see how to configure it.
-            url: false
 
 
