@@ -21,6 +21,24 @@ project_entries:
     url: https://github.com/mbergerman/WaveFormsScopePythonPlotter
     desc: Graficador de señales de scope provenientes del programa Digilent WaveForms.
 
+  - title: "Cómo construir un robot seguidor de línea con Arduino "
+    url: https://www.instructables.com/Line-Follower-Robot-With-Arduino-Really-Fast-and-R/
+    desc: Pasos a seguir para construir de forma simple un robot seguidor de línea lo más veloz posible.
+    highlight: Inglés
+    image: "images/line_follower_arduino.jpg"
+
+  - title: "Programador para PIC basado en el PICKit 2 "
+    url: https://www.instructables.com/How-to-Make-a-PIC-Programmer-PicKit-2-clone/
+    desc: Una placa capaz de programar microcontroladores PIC, basado en el esquemático provisto por Microchip. 
+    highlight: Inglés
+    image: "images/pickit2.jpg"
+
+  - title: "Robot seguidor de línea analógico "
+    url: https://www.instructables.com/Simple-Line-Follower-Robot-With-No-Programming-Ana/
+    desc: Este robot sigue una linea en el piso sin requerir programación, simplemente usa un circuito electrónico.
+    highlight: Inglés
+    image: "images/line_follower_analog.jpg"
+
   - title: CalcuPy
     url: https://github.com/mbergerman/CalcuPy
     desc: Mi primer proyecto en Python!
