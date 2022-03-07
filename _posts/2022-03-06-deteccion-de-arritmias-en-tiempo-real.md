@@ -1,8 +1,7 @@
 ---
 layout: post
+title: Detección de arritmias en tiempo real
 ---
-
-# Detección de arritmias en tiempo real
 
 > Este trabajo fue realizado dentro de la materia *22.46 - Procesamiento Adaptativo de Señales*, del Instituto Tecnológico de Buenos Aires en noviembre de 2021.
 

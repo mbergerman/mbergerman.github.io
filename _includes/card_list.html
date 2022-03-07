@@ -19,6 +19,11 @@
           {{ item.desc }}
         </p>
         {% endif %}
+
+        {% if item.image != false %}
+        <img class="body" type="image/png" src="{{ item.image | relative_url }}" />
+        {% endif %}
+
       </a>
     </li>
 
