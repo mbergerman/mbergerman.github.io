@@ -12,14 +12,17 @@ project_entries:
   - title: Detección de arritmias en tiempo real
     url: deteccion-de-arritmias-en-tiempo-real
     desc: Detector de arritmias usando los algoritmos LMS y RLS.
+    image: "images/detector_arritmias.png"
 
   - title: Electronic Filter Design Tool
     url: https://github.com/mbergerman/FilterTool
     desc: Herramienta para diseñar filtros a partir del uso de celdas con amplificadores operacionales.
+    image: "images/filter_tool.png"
 
   - title: WaveForms Scope Python Plotter
     url: https://github.com/mbergerman/WaveFormsScopePythonPlotter
     desc: Graficador de señales de scope provenientes del programa Digilent WaveForms.
+    image: "images/waveforms_plot.png"
 
   - title: "Cómo construir un robot seguidor de línea con Arduino "
     url: https://www.instructables.com/Line-Follower-Robot-With-Arduino-Really-Fast-and-R/
@@ -43,6 +46,7 @@ project_entries:
     url: https://github.com/mbergerman/CalcuPy
     desc: Mi primer proyecto en Python!
           Una simple calculadora por consola.
+    image: "images/CalcuPy.png"
 
 
 old_project_entries:

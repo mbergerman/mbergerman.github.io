@@ -17,7 +17,7 @@ author: Matías Bergerman, Pablo González Leiro, Milagros Moutin
   * Otros espacios de colores
   * Transformación al espacio $$YC_BC_R$$
   * Submuestreo de crominancia
-- Transformada Coseno Discreta - DCT 5
+- Transformada Coseno Discreta - DCT
   * Introducción
   * Definición
     - DCT-I
@@ -27,9 +27,9 @@ author: Matías Bergerman, Pablo González Leiro, Milagros Moutin
   * Comportamiento en Alta Frecuencia
   * Fast Cosine Transform - FCT
     - Relación DCT-DFT
-- Proceso de Cuantización 12
+- Proceso de Cuantización
   * Tablas de Cuantización
-- Codificación Huffman 13
+- Codificación Huffman
   * *Difference encoding*, *Running length encoding* y Códigos de Huffman
   * Entrelazamiento (*Interleaving*)
   * Rellenado de bytes (*Byte stuffing*)
