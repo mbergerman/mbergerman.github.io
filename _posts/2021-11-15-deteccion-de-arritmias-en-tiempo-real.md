@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Detección de arritmias en tiempo real
+author: Matías Bergerman, Tobías Demeco, Carola Pedrosa, Matías Tripoli
 ---
 
-> Este trabajo fue realizado dentro de la materia *22.46 - Procesamiento Adaptativo de Señales*, del Instituto Tecnológico de Buenos Aires en noviembre de 2021.
+> Este trabajo fue realizado para la materia *22.46 - Procesamiento Adaptativo de Señales*, del Instituto Tecnológico de Buenos Aires. Profesor: Ing. Marc Ressl.
 
 ## Parte 1: LMS (Least Mean Squares)
 

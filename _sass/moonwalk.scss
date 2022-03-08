@@ -38,8 +38,7 @@ li { margin: 0.4em 0; }
 }
 
 table, th, td {
-  width: 100%;
-  border: thin solid black;
+  border: 2px solid #adb5bd;
   border-collapse: collapse;
   padding: 0.4em;
 }
@@ -63,6 +62,18 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+img[src~="white-bg-png"] {
+  background-color: white;
+}
+img[src~="mid-width"] {
+  width: 32em;
+}
+img[src~="short-width"] {
+  width: 18em;
+}
+
+
 html {
     --bg: #FFFFFF;
     --bg-secondary: #f8f9fa;
@@ -99,6 +110,12 @@ html, body {
 }
 h1, h2, h3, h4, h5, h6 {
     color: var(--headings);
+}
+h1 em, h2 em, h3 em, h4 em, h5 em, h6 em{
+  color: var(--headings);
+}
+h1 b, h2 b, h3 b, h4 b, h5 b, h6 b{
+  color: var(--headings);
 }
 p, strong, b, em, small, li, hr, table, figcaption {
     color: var(--text);
