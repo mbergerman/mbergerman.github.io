@@ -74,14 +74,14 @@ img[src~="short-width"] {
 
 
 html {
-    --bg: #FFFFFF;
-    --bg-secondary: #f8f9fa;
-    --headings: #109648;
+    --bg: #eaeaea;
+    --bg-secondary: #d5d8dd;
+    --headings: #0e8740;
     --text: #333;
     --links: #D36135;
     --highlight: #009FFD; // light yellow
     --code-text: #9D174D;
-    --share-text: #999;
+    --share-text: #7a7a7a;
 }
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
