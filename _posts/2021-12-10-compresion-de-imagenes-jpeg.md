@@ -189,6 +189,7 @@ también es posible introducir alinealidades mediante una _corrección
 gamma_. Las ecuaciones correspondientes a esta transformación para
 valores no-signados de 8 bits son:
 
+<div class="mathbox">
 $$
 \begin{aligned}
  Y &= 0 + (0.299 \cdot R_D) + (0.587 \cdot G_D) + (0.114 \cdot B_D)\\
@@ -202,6 +203,7 @@ $$
  G_D &= Y - 0.344136 \cdot (C_B-128) - 0.714136 \cdot (C_R-128) \\
  B_D &= Y + 1.772 \cdot (C_B-128)\end{aligned}
 $$
+</div>
 
 Los resultados de la conversión también son almacenados como datos
 no-signados de 8 bits, razón por la cual el resultado de cada ecuación
@@ -252,8 +254,7 @@ a derecha es el siguiente:
 En este trabajo, el patrón de submuestreo elegido es el 4:2:0 dado que
 es uno de los más utilizados. Este corresponde a una reducción a la
 mitad de tanto la resolución horizontal como vertical. En la figura
-5
-se ponen en evidencia los efectos del submuestreo en una imagen digital.
+5 se ponen en evidencia los efectos del submuestreo en una imagen digital.
 La amplitud de los componentes de crominancia se muestran en escala de
 grises para que puedan ser mejor apreciados.
 
@@ -326,16 +327,14 @@ que será la que usaremos en el proceso de compresión.
 ### DCT-I
 
 Supongamos que se tiene la secuencia $$x(n)$$ que muestra la figura
-6, la
-cual se quiere extender fuera del período $$0\leq n\leq N-1$$.
+6, la cual se quiere extender fuera del período $$0\leq n\leq N-1$$.
 
 ![Función discreta x(n) a extender.](images/compresion-jpeg-images/DCT-xn.PNG)
 
 <p style="text-align:center">Figura 6: Función discreta x(n) a extender.</p>
 
 Podemos extender $$x(n)$$ según como muestra la figura
-7 y formar la
-función extendida de $$x(n)$$, $$x_{1}(n)$$.
+7 y formar la función extendida de $$x(n)$$, $$x_{1}(n)$$.
 
 ![$$x_{1}$$(n), extensión de $$x(n)$$.](images/compresion-jpeg-images/DCT-xn1.PNG)
 
@@ -348,28 +347,38 @@ $$x(n)$$ desplazadas, tenemos que notar que para los $$n = k\cdot (N-1)$$,
 con $$k \in \mathbb{Z}$$, los valores de la función se van a solapar. Es
 por esto que define la función $$x_{\alpha}(n)$$:
 
+<div class="mathbox">
 <p style="text-align:center">
 $$x_{\alpha}(n) = \begin{cases} \frac{1}{2}\cdot x(n) & \quad \text{si } n = 0\text{ o } n = N-1\\ x(n) & \quad \text{si no} \end{cases}$$
 </p>
+</div>
 Entonces, se escribe la función $$x_{1}(n)$$ en función de $$x_{\alpha}$$ de
 la siguiente forma:
+<div class="mathbox">
 <p style="text-align:center">
 $$x_{1}(n) = x_{\alpha}(n)_{2N-2} + x_{\alpha}(-n)_{2N-2}$$
 </p>
-Tomando a
-$$x_{\alpha}(n)_{2N-2}$$ y $$x_{\alpha}(-n)_{2N-2}$$ como funciones que
+</div>
+Tomando a $$x_{\alpha}(n)_{2N-2}$$ y $$x_{\alpha}(-n)_{2N-2}$$ como funciones que
 repiten la función $$x_{\alpha}$$ para cada $$n$$ múltiplos de $$2N-2$$. Notar
 que para $$n=0$$ y $$n=N-1$$ están definidas ambas funciones
 $$x_{\alpha}(n)_{2N-2}$$ y $$x_{\alpha}(-n)_{2N-2}$$, pero al sumarlas se
 promedia el valor de ambas.\
 A partir de esta extensión de $$x(n)$$ se define la DCT-I como:
+
+<div class="mathbox">
 <p style="text-align:center">
 $$X^{C1}(k) = 2 \sum_{n=0}^{N-1} \alpha(n)x(n) cos\left (\frac{\pi kn}{N-1}  \right )$$
 </p>
+</div>
 con $$k = 0,..., N-1$$.
 
 Otra forma equivalente para expresarla sería:
+<div class="mathbox">
+<p style="text-align:center">
 $$X^{C1}(k) = \frac{1}{2}\cdot (x_{0} + (-1)^{k}x(n)) + \sum_{j = 1}^{N-2} cos\left ( \frac{\pi jk}{N-1} \right )$$
+</p>
+</div>
 con $$k = 0,..., N-1$$.\
 Fuera del intervalo $$k= 0,...,N-1$$, la función será equivalente la
 extensión $$x_{1}(n).$$ Por último, la función $$x(n)$$ puede escribirse
@@ -377,13 +386,17 @@ como combinación lineal de la base ortogonal formada por el siguiente
 conjunto de
 funciones:
 
+<div class="mathbox">
 <p style="text-align:center">
 $$\left \{cos\left ( \frac{\pi kn}{N-1}\right )\right \} \text{ con } k=0,..,N-1$$
 </p>
+</div>
 de la siguiente forma:
+<div class="mathbox">
 <p style="text-align:center">
 $$x(n) = \frac{1}{N-1} \sum_{k = 0}^{N-1} \alpha(k) X^{C1}(k)cos\left ( \frac{\pi kn}{N-1} \right )$$
 </p>
+</div>
 
 ### DCT-II
 
@@ -407,51 +420,67 @@ una función discreta este punto no se encuentra en el dominio. El
 período de la función $$x_{2}(n)$$ es $$2N$$, y podemos expresar la función
 $$x_{2}(n)$$ como función de $$x(n)$$ de la siguiente forma:
 
+<div class="mathbox">
 <p style="text-align:center">
 $$x_{2}(n) = x(n)_{2N} + x(-n-1)_{2N}$$
 </p>
+</div>
 A partir de la extensión
 $$x_{2}(n)$$ de $$x(n)$$ se define la DCT-II como:
+<div class="mathbox">
 <p style="text-align:center">
 $$X^{C2}(k) = 2\sum_{n=0}^{N-1}x(n)cos\left ( \frac{\pi k(2n + 1)}{2N}\right )
 \label{eq:DCT2-NoUni}$$
-</p><p style="text-align:right">(9)</p>
+</p>
+</div><p style="text-align:right">(9)</p>
 con k = 0,\..., N-1. La función $$x(n)$$ puede
 escribirse como combinación lineal de la base ortogonal formada por el
 siguiente conjunto de funciones:
+<div class="mathbox">
 <p style="text-align:center">
 $$\left \{cos\left ( \frac{\pi k(2n+1)}{2N}\right )\right \} \text{ con } k=0,..,N-1$$
 </p>
+</div>
 de la siguiente forma:
+<div class="mathbox">
 <p style="text-align:center">
 $$x(n) = \frac{1}{N} \sum_{k=0}^{N-1} \beta(k)X^{C2}(k)cos\left ( \frac{\pi k(2n+1)}{2N} \right )$$
 </p>
+</div>
 con $$k=0,...,N-1$$ y definiendo la función $$\beta (k)$$ de la siguiente
 forma:
+<div class="mathbox">
 <p style="text-align:center">
 $$\beta(k) = \begin{cases} \frac{1}{2} & \quad \text{si } k = 0\\ 1 & \quad 1\leq k\leq N-1 \end{cases}$$
 </p>
+</div>
 Como comentario final para esta sección, en ciertas ocasiones se
 requiere incluir los llamados "factores de normalización\" que hacen
 unitaria a la transformada, es decir que su base sea *ortonormal* y
 además se cumpla la siguiente propiedad:
+<div class="mathbox">
 <p style="text-align:center">
 $$\sum_{n=0}^{N-1}x(n)^2 = \sum_{k =0}^{N-1}X^{C2}(k)^2$$
 </p>
+</div>
 Lo que se hará
 es simplemente redistribuir los factores de normalización entre la
 transformada y su inversión. Por lo tanto, otra definición para la
 transformada y su inversa que se pueden encontrar frecuentemente son las
 siguientes:
+<div class="mathbox">
 <p style="text-align:center">
 $$\tilde{X^{C2}} = \sqrt{\frac{2}{N}}\tilde{\beta}(k)\sum_{n=0}^{N-1}x(n)\cdot cos\left ( \frac{\pi k(2n + 1)}{2N}\right )$$
 $$x(n)= \sqrt{\frac{2}{N}}\sum_{n=0}^{N-1}\tilde{\beta}(k)\tilde{X^{C2}} cos\left ( \frac{\pi k(2n + 1)}{2N}\right )$$
 </p>
+</div>
 con $$0\leq k\leq N-1$$ y definiendo $$\tilde{\beta}(k)$$ de la siguiente
 forma:
+<div class="mathbox">
 <p style="text-align:center">
 $$\tilde{\beta}(k) = \begin{cases} \frac{1}{\sqrt{2}}& \quad \text{si } k = 0\\ 1 & \quad k=1,2,...,N-1 \end{cases}$$
 </p>
+</div>
 
 ### Definición Multidimensional
 
@@ -463,9 +492,11 @@ Para esto se define la transformada bidimensional DCT-II unitaria que
 consiste en hacer la transformada primero en una dimensión y luego de la
 otra de la siguiente forma:
 
+<div class="mathbox">
 <p style="text-align:center">
 $$X_{ij} = \frac{\tilde{\beta}(i)\tilde{\beta}(j)}{\sqrt{NM}}\sum_{n = 0}^{N-1}\left [\sum_{m = 0}^{M-1} x(n,m) cos\left ( \frac{\pi i (2m+1)}{2M} \right )  \right ] cos \left ( \frac{\pi j (2n+1)}{2N} \right )$$
 </p>
+</div>
 Si bien esta es la definición formal de la transformadas
 multidimensional, más adelante en el análisis matricial se presentará
 otra forma más simplificada de poder calcularla.
@@ -483,42 +514,53 @@ Siendo que se desea calcular una transformada lineal y discreta, para
 una entrada $$x(n)$$ de periodo N, existe una matriz de dimensión $$NxN$$
 tal que nos permite calcular la transformada X de la siguiente forma:
 
+<div class="mathbox">
 <p style="text-align:center">
 $$X = C_{N}x$$
 </p>
+</div>
 Siendo $$X_{Nx1}$$ los valores que toma la DCT y $$x_{Nx1}$$
 los valores que toma la función x(n) de entrada. La matriz $$C_{N}$$ se
 puede obtener teniendo en cuenta la definición de transformada
 bidimensional presente en la sección previa. De esta forma, obtener la
 transformada coseno inversa es simplemente:
+<div class="mathbox">
 <p style="text-align:center">
 $$x = C_{N}^{-1}X$$
 </p>
+</div>
 Como la
 base de la transformación cosenoidal es ortogonal, la matriz $$C_{N}$$
 cumplirá la siguiente propiedad:
+<div class="mathbox">
 <p style="text-align:center">
 $$C_{N}^{-1} = C_{N}^{T}$$
 </p>
+</div>
 Este
 propiedad facilita en gran medida el cálculo de la antitransformada.\
 Si se desea calcular una transformada bidireccional para una entrada
 $$x(i,j)$$, de dimensión $$NxM$$, basta con calcular:
+<div class="mathbox">
 <p style="text-align:center">
 $$X = C_{N}xC_{M}$$
 </p>
+</div>
 Si sucede que la dimensión de entrada es $$NxN$$ (el caso de la aplicación en
 cuestión), se cumple lo siguiente:
+<div class="mathbox">
 <p style="text-align:center">
 $$X_{NxN} = C_{N}xC_{N}^{T}
 \label{eq:dtc_matricial}$$
 </p>
+</div>
 <p style="text-align:right">(17)</p>
 De la misma forma, podemos la entrada x(n) de
 la siguiente forma: $$x = C_{N}^{T}XC_{N}
 %\label{eq:dtc_matricial}$$ Además, para una transformada DTC-II
 unitaria se tiene que esta matriz vale lo siguiente:
 
+<div class="mathbox">
 <p style="text-align:center">
 $$C_{k,n}= \left\{ \begin{array}{lcc}
              \frac{1}{\sqrt{N}} &   si  & k = 0,\;\; 0 \leq k\leq N-1 \\
@@ -526,6 +568,7 @@ $$C_{k,n}= \left\{ \begin{array}{lcc}
              \end{array}
    \right.$$
 </p>
+</div>
 
 Siendo que se van a computar matrices de dimensión 8x8, se
 pueden determinar los valores de la matriz y su traspuesta de antemano
@@ -534,6 +577,7 @@ en el código y con la entrada se aplica la fórmula
 llamamos "Matriz Base\" se observa a continuación y se representa en la
 Figura 10.
 
+<div class="mathbox">
 <p style="text-align:center">
 $$
 \begin{bmatrix}
@@ -548,6 +592,7 @@ $$
 \end{bmatrix}
 $$
 Figura 9: Coeficientes de la matriz base DCT.</p>
+</div>
 
 ![Matriz Base de la DCT.](images/compresion-jpeg-images/MatrizBase.jpg)
 <p style="text-align:center">Figura 10: Matriz Base de la DCT.</p>
@@ -624,6 +669,7 @@ de una señal. Es decir, supongamos que se quiere encontrar la DCT una
 secuencia real x(n) ($$0\leq n\leq N-1$$), esta deriva de la DFT de una
 secuencia de extensión par 2N y(n) de la siguiente forma:
 
+<div class="mathbox">
 <p style="text-align:center">
 $$y(n)= \left\{ \begin{array}{lcc}
              x(n) &    & 0 \leq n \leq N-1 \\
@@ -632,35 +678,46 @@ $$y(n)= \left\{ \begin{array}{lcc}
              \end{array}
    \right.$$
 </p>
+</div>
 
 Ahora, se busca la DFT de y(n):
 
+<div class="mathbox">
 <p style="text-align:center">
 $$Y(k) = \sum_{n=0}^{2N-1} y(n)\cdot W_{2N}^{nk}$$
 </p>
+</div>
 Siendo la base ortogonal $$W_{M} = e^{-j2\pi /M}$$:
+<div class="mathbox">
 <p style="text-align:center">
 $$Y(k) = \sum_{n=0}^{N-1}x(n)\cdot W_{2N}^{nk} + \sum_{n=N}^{2N-1}x(2N-n-1)\cdot
     W_{2N}^{nk}$$
 </p>
+</div>
 Se puede reescribir esta última expresión de la
 siguiente forma:
+<div class="mathbox">
 <p style="text-align:center">
 $$y(k) = W_{2N}^{-\frac{k}{2}} \cdot 2\sum_{n=0}^{N-1}x(n)\cdot cos\left ( \frac{\pi(2n+1)k}{2N} \right )$$
 </p>
+</div>
 Ahora, teniendo en mente la definición de DCT-II que muestra la fórmula
 9, se puede escribir la siguiente relación
 entre la DFT y la DCT:
+<div class="mathbox">
 <p style="text-align:center">
 $$Y(k) = W_{2N}^{-\frac{k}{2}}C(k)$$
 </p>
+</div>
 Siendo $$C(k)$$ la DCT. Por lo tanto, la DCT de x(n) puede computarse tomando la
 DFT la función y(n) de período 2N y multiplicando el resultado por
 $$W_{2N}^{\frac{k}{2}}$$.\
 Otra forma de obtener la DCT en función de la DFT sería:
+<div class="mathbox">
 <p style="text-align:center">
 $$C(k) = 2\; Re \; \left [ W_{2N}^{\frac{k}{2}}\sum_{n=0}^{N-1} x(n)\; W_{2N}^{nk}\right ]$$
 </p>
+</div>
 Es decir que se puede obtener la DCT tomando 2N puntos de la secuencia
 original x(n) y utilizando esta fórmula.
 
@@ -684,9 +741,11 @@ coeficiente $$C_{ij}$$ correspondiente a la transformada coseno.
 Finalmente se toman todos valores enteros, con lo cual se debe redondear
 al entero más cercano:
 
+<div class="mathbox">
 <p style="text-align:center">
 $$B_{ij} = \text{round}\left ( \frac{C_{ij}}{Q_{ij}} \right )$$
 </p>
+</div>
 Siendo $$B$$ la matriz cuantizada, $$C$$ la matriz DCT y $$Q$$ la tabla o matriz de
 cuantización.
 
@@ -723,7 +782,7 @@ El estándar JPEG define las tablas de cuantización que se muestran en la
 Figura 13 teniendo en una cuenta que la matriz a
 cuantificar es una DCT-II normalizada.
 
-
+<div class="mathbox">
 $$
 \begin{bmatrix}
 16 & 11 & 10 & 16 & 24 & 40 & 51 & 61 \\
@@ -743,8 +802,9 @@ $$
     99 & 99 & 99 & 99 & 99 & 99 & 99 & 99 \\
     99 & 99 & 99 & 99 & 99 & 99 & 99 & 99\\
     99 & 99 & 99 & 99 & 99 & 99 & 99 & 99
-    \end{bmatrix}
-$$
+    \end{bmatrix}$$
+</div>
+
 <p style="text-align:center">
 Figura 13: Tablas de cuantificación para Luminancia y Crominancia respectivamente.
 </p>
@@ -881,6 +941,7 @@ Las MCUs son los siguientes, donde $$Y_i$$ indica el i-ésimo bloque de la
 luminancia y $${C_R}_i$$ y $${C_B}_i$$ hacen lo propio con la crominancia.
 El máximo admisible de bloques por MCU es 10, en este caso son 6.
 
+<div class="mathbox">
 <style type="text/css">
 .tg  {border:none;border-collapse:collapse;border-spacing:0;margin:0px auto;}
 .tg td{border:none}
@@ -945,6 +1006,7 @@ El máximo admisible de bloques por MCU es 10, en este caso son 6.
   </tr>
 </tbody>
 </table>
+</div>
 
 El código que representa a toda la imagen es la concatenación de las
 secuencias binarias de cada MCU, que a su vez es una concatenación de 6
@@ -1020,18 +1082,18 @@ de compresión se vuelven evidentes.
 
 - CCITT, "T.81 -- Digital Compression and Coding of Continous-Tone
   Still Images -- Requirements and Guidelines\", 1992. Disponible:
-  [https://www.w3.org](https://www.w3.org/Graphics/JPEG/itu-t81.pdf)
+  [www.w3.org](https://www.w3.org/Graphics/JPEG/itu-t81.pdf)
   \[Accedido: 3/12/2021\]
 
 - K. Cabeen and P. Gent, "Image Compression and the Discrete Cosine
   Transform\". Disponible:
-  <https://www.math.cuhk.edu.hk/~lmlui/dct.pdf> \[Accedido:
+  [www.math.cuhk.edu.hk](https://www.math.cuhk.edu.hk/~lmlui/dct.pdf) \[Accedido:
   3/12/2021\]
 
 - M.R. Azimi, "Digital Image Processing Lectures 11 & 12\",
   presentados Departamento de Ingeniería Eléctrica y Computacional,
   Colorado State University. \[_PowerPoint_ Slides\]. Disponible:
-  [https://www.engr.colostate.edu](https://www.engr.colostate.edu/ECE513/SP09/lectures/lectures11_12.pdf)
+  [www.engr.colostate.edu](https://www.engr.colostate.edu/ECE513/SP09/lectures/lectures11_12.pdf)
   \[Accedido: 3/12/2021\]
 
 <br>
@@ -1039,5 +1101,5 @@ de compresión se vuelven evidentes.
 [^1]:
     CCITT, "T.81 -- Digital Compression and Coding of Continous-Tone
     Still Images -- Requirements and Guidelines\", 1992. Disponible:
-    [https://www.w3.org](https://www.w3.org/Graphics/JPEG/itu-t81.pdf)
+    [www.w3.org](https://www.w3.org/Graphics/JPEG/itu-t81.pdf)
     \[Accedido: 3/12/2021\]

@@ -214,3 +214,8 @@ p code, li code {
     color: var(--links);
   }
 }
+
+.mathbox{
+  overflow-x: auto;
+  overflow-y: hidden;
+}
