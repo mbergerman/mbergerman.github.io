@@ -286,14 +286,28 @@ en este proceso.
 
 Una transformada matemática es una función $$A(k)$$ cuyo dominio son las
 funciones discretas $$x(n)$$ y se define:
-$$A(k) = \sum_{n=0}^{N-1} x(n) \phi_{k}^{*}(n)$$ Siendo $$N$$ el período
+
+<div class="mathbox">
+<p style="text-align:center">
+$$A(k) = \sum_{n=0}^{N-1} x(n) \phi_{k}^{*}(n)$$
+</p>
+</div>
+
+Siendo $$N$$ el período
 de la función $$x(n)$$ y donde el conjunto de las funciones $$\phi_{k}(n)$$,
 con $$0\leq n\leq N-1$$ es una base ortogonal.\
 A su vez, la función $$x(n)$$ en el intervalo entre $$0 \leq n \leq N-1$$ se
 puede escribir como combinación lineal de la base ortogonal formada por
 los $$\phi_{k}(n)$$, donde los coeficientes lineales se forman con los
 valores de la transformada $$A(k)$$ de la siguiente forma:
-$$x(n) = \frac{1}{N}\sum_{k=0}^{N-1} A(k) \phi_{k}(n)$$ Para definir la
+
+<div class="mathbox">
+<p style="text-align:center">
+$$x(n) = \frac{1}{N}\sum_{k=0}^{N-1} A(k) \phi_{k}(n)$$
+</p>
+</div>
+
+Para definir la
 Transformada Discreta de Fourier, se propuso que la base ortogonal sean
 las funciones del tipo $$e^{\frac{j2\pi kn}{N}}$$. Con esta definición,
 aunque la función x(n) sea real, los valores de la transformada A(k)
@@ -594,8 +608,9 @@ $$
   0.098 & -0.278 & 0.416 & -0.49 & 0.49 & -0.416 & 0.278 & -0.098\\
 \end{bmatrix}
 $$
-Figura 9: Coeficientes de la matriz base DCT.</p>
+</p>
 </div>
+<p style="text-align:center">Figura 9: Coeficientes de la matriz base DCT.</p>
 
 ![Matriz Base de la DCT.](images/compresion-jpeg-images/MatrizBase.jpg)
 <p style="text-align:center">Figura 10: Matriz Base de la DCT.</p>

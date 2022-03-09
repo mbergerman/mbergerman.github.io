@@ -5,4 +5,4 @@ layout: default
 <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
 <h1 class="post-title">{{ page.title }}</h1>
 {% include date_and_social_share.html %}
-{% include anchor_headings.html html=content anchorBody=" 🔗" anchorAttrs='style="text-decoration: none;font-size: 1.2rem;opacity: 0.6;"' %}
+{% include anchor_headings.html html=content anchorBody=" 🔗" anchorAttrs='style="font-size: 1.2rem;opacity: 0.4;" onmouseout="this.style.opacity=0.4;" onmouseover="this.style.opacity=1.0;"' %}
