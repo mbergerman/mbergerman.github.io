@@ -50,7 +50,6 @@ div.highlighter-rouge pre code, pre code.highlighter-rouge {
 }
 
 blockquote {
-  font-style: italic;
   border: thin solid black;
   padding: 1em;
 
@@ -129,8 +128,13 @@ blockquote {
 }
 a {
   color: var(--links);
+  text-decoration: none;
 }
 *:target { background-color: var(--bg-secondary); }
+
+a em, a b{
+  color: var(--links);
+}
 
 html.transition,
 html.transition *,

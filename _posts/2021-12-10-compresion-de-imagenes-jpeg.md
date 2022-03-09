@@ -6,35 +6,38 @@ author: Matías Bergerman, Pablo González Leiro, Milagros Moutin
 
 > Este trabajo fue realizado para la materia _22.05 - Análisis de Señales y Sistemas Digitales_, del Instituto Tecnológico de Buenos Aires. Profesor: Ing. Daniel Jacoby.
 
-[Trabajo completo en formato PDF](https://github.com/mbergerman/JPEG-Encoder/blob/main/ASSD_TPF_G3/TPFinal_ASSD.pdf)
+### [Trabajo completo en formato PDF](https://github.com/mbergerman/JPEG-Encoder/blob/main/ASSD_TPF_G3/TPFinal_ASSD.pdf)
 
-[Codificador JPEG programado usando Python](https://github.com/mbergerman/JPEG-Encoder/tree/main/ASSD_TPF_G3/JPEG%20Encoder)
+### [Codificador JPEG programado usando Python](https://github.com/mbergerman/JPEG-Encoder/tree/main/ASSD_TPF_G3/JPEG%20Encoder)
+
 
 ### Índice
-- Introducción
-- Espacios y modelos de color
-  * Espacio RGB
-  * Otros espacios de colores
-  * Transformación al espacio $$YC_BC_R$$
-  * Submuestreo de crominancia
-- Transformada Coseno Discreta - DCT
-  * Introducción
-  * Definición
-    - DCT-I
-    - DCT-II
-    - Definición Multidimensional
-  * Representación matricial para DCT
-  * Comportamiento en Alta Frecuencia
-  * Fast Cosine Transform - FCT
-    - Relación DCT-DFT
-- Proceso de Cuantización
-  * Tablas de Cuantización
-- Codificación Huffman
-  * *Difference encoding*, *Running length encoding* y Códigos de Huffman
-  * Entrelazamiento (*Interleaving*)
-  * Rellenado de bytes (*Byte stuffing*)
-- Problemas con la compresión JPEG
-- Bibliografía
+- [Introducción](/compresion-de-imagenes-jpeg#introducción)
+- [Espacios y modelos de color](compresion-de-imagenes-jpeg#espacios-y-modelos-de-color)
+  * [Espacio RGB](/compresion-de-imagenes-jpeg#espacio-rgb)
+  * [Otros espacios de colores](/compresion-de-imagenes-jpeg#otros-espacios-de-colores)
+  * [Transformación al espacio $$YC_BC_R$$](/compresion-de-imagenes-jpeg#transformación-al-espacio-yc_bc_r)
+  * [Submuestreo de crominancia](/compresion-de-imagenes-jpeg#submuestreo-de-crominancia)
+- [Transformada Coseno Discreta - DCT](/compresion-de-imagenes-jpeg#transformada-coseno-discreta---dct)
+  * [Introducción](/compresion-de-imagenes-jpeg#introducción-1)
+  * [Definición](/compresion-de-imagenes-jpeg#definición)
+    - [DCT-I](/compresion-de-imagenes-jpeg#dct-i)
+    - [DCT-II](/compresion-de-imagenes-jpeg#dct-ii)
+    - [Definición Multidimensional](/compresion-de-imagenes-jpeg#definición-multidimensional)
+  * [Representación matricial para DCT](/compresion-de-imagenes-jpeg#representación-matricial-para-dct)
+  * [Comportamiento en Alta Frecuencia](/compresion-de-imagenes-jpeg#comportamiento-en-alta-frecuencia)
+  * [Fast Cosine Transform - FCT](/compresion-de-imagenes-jpeg#fast-cosine-transform---fct)
+    - [Relación DCT-DFT](/compresion-de-imagenes-jpeg#relación-dct-dft)
+- [Proceso de Cuantización](/compresion-de-imagenes-jpeg#proceso-de-cuantización)
+  * [Tablas de Cuantización](/compresion-de-imagenes-jpeg#tablas-de-cuantización)
+- [Codificación Huffman](/compresion-de-imagenes-jpeg#codificación-huffman)
+  * [*Difference encoding*, *Running length encoding* y Códigos de Huffman](/compresion-de-imagenes-jpeg#difference-encoding-running-length-encoding-y-códigos-de-huffman)
+  * [Entrelazamiento (*Interleaving*)](/compresion-de-imagenes-jpeg#entrelazamiento-interleaving)
+  * [Rellenado de bytes (*Byte stuffing*)](/compresion-de-imagenes-jpeg#rellenado-de-bytes-byte-stuffing)
+- [Problemas con la compresión JPEG](/compresion-de-imagenes-jpeg#problemas-con-la-compresión-jpeg)
+- [Bibliografía](/compresion-de-imagenes-jpeg#bibliografía)
+  * [Libros](/compresion-de-imagenes-jpeg#libros)
+  * [Trabajos](/compresion-de-imagenes-jpeg#trabajos)
 
 # Introducción
 
