@@ -17,7 +17,7 @@ Los displays de 7 segmentos tienen 7 rayitas y un puntito decimal, los cuales pu
 
 ### Escribiendo palabras
 
-Cuando era muy chico, me acuerdo que usaba una calculadora en la escuela con displays de 7 segmentos, hasta que por fin conseguí una calculadora científica. Una vez me mostraron un juego en el cual me contaban una historia con números que se iban sumando y multiplicando hasta llegar a un resultado, pero al dar vuelta la calculadora el resultado se convertía en una palabra, que era justamente el desenlace de la historia! No recuerdo los detalles, pero si me acuerdo que había un objeto escondido el cual se encontraba en un:
+Cuando era chico, me acuerdo que usaba una calculadora en la escuela con displays de 7 segmentos, hasta que por fin conseguí una calculadora científica. Una vez me mostraron un juego en el cual me contaban una historia con números que se iban sumando y multiplicando hasta llegar a un resultado, pero al dar vuelta la calculadora el resultado se convertía en una palabra, que era justamente el desenlace de la historia! No recuerdo los detalles, pero si me acuerdo que había un objeto escondido el cual se encontraba en un:
 
 <p style="text-align:center">
 <img src="images/siete-segmentos/7seg-bolsillo.png" alt="Palabra BOLSILLO en un display de calculadora al derecho" style="max-height: 8em;">
@@ -67,7 +67,7 @@ No todas las letras se pueden representar en un display de 7 segmentos. Con los 
 
 Para mí, el 9 es el que más se parece a una G. Además el 4 se parece a una h minúscula, y el 2 y 6 no se parecen a nada. ¿No estás de acuerdo conmigo? Hace tu propio programa!
 
-Cualquier palabra "válida" solamente puede contener estas letras especiales. Para chequear esta condición, se me ocurrió usar `set`. Empiezo definiendo un `set` de letras válidas:
+Cualquier palabra "válida" solamente puede contener estas letras especiales. Para chequear esta condición, se me ocurrió usar un `set`. Empiezo definiendo un `set` de letras válidas:
 
 ```python
 letras_validas = {'o', 'i', 'e', 'h', 's', 'l', 'b', 'g'}
@@ -130,7 +130,7 @@ Bueno... vamos a ignorar el primer resultado porque no me gustó jeje. Ahora sí
 <img src="images/siete-segmentos/7seg-eligieseis.png" alt="Palabra ELIGIESEIS en un display de calculadora al revés" style="max-height: 8em;transform: scaleX(-1) scaleY(-1);">
 </p>
 
-Después de ver esto me dió curiosidad a ver cómo es el ranking de las palabras más largas, así que para eso en lugar de guardar solamente la más larga quiero ir agregando toda palabra válida en una gran lista. Al final, simplemente puedo ordenar la lista para ver cuáles son las palabras válidas más largas:
+Después de ver esto me dió curiosidad de ver cómo es el ranking de las palabras más largas, así que para eso en lugar de guardar solamente la más larga quiero ir agregando toda palabra válida en una gran lista. Al final, simplemente puedo ordenar la lista para ver cuáles son las palabras válidas más largas:
 
 ```python
 palabras_validas = []
