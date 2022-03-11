@@ -1,5 +1,8 @@
 navbar_entries:
-  - title: contacto
+  - title: posts
+    url: posts
+    
+  - title: email
     url: mailto:mbergerman@itba.edu.ar
 
   # - title: acerca de mí
