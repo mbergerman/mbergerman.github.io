@@ -6,22 +6,22 @@ lang: en
 lang-ref: deteccion-de-arritmias-en-tiempo-real
 ---
 
-> Este trabajo fue realizado para la materia *22.46 - Procesamiento Adaptativo de Señales*, del Instituto Tecnológico de Buenos Aires. Profesor: Ing. Marc Ressl.
+> This project was made for the *22.46 - Adaptive Signal Processing* course, in the Buenos Aires Institute of Technology (ITBA). Professor: Ing. Marc Ressl.
 
-## Parte 1: LMS (Least Mean Squares)
+## Part 1: LMS (Least Mean Squares)
 
-### Resumen
-En este trabajo se presenta un algoritmo de tiempo real para la detección de arritmias, analizando variaciones morfológicas y cambios de frecuencia presentes en una señal de electrocardiograma (ECG). Ambos casos son detectados de forma paralela mediante implementaciones del algoritmo LMS, aprovechando las características conocidas *a priori* sobre la forma de onda del complejo QRS. El algoritmo desarrollado presenta una sensibilidad del 85,3% y un valor predictivo positivo del 96,7% analizado sobre el paciente 100 de la base de datos de arritmias MIT-BIH.
+### Abstract
+In this project we present a real time algorithm for detecting heart arrhythmias, by analyzing morphological variations and frequency changes present in an electrocardiogram (ECG) signal. Both cases are detected in parallel by an implementation of the LMS algorithm, leveraging *a priori* knowledge regarding que QRS complex waveform. The algorithm developed exhibits a sensitivity of 83,3% and a positive predictive value of 96,7% in the analysis of patient 100 from the MIT-BIH arrhythmia database.
 
-### [Trabajo en formato paper IEEE](https://github.com/mbergerman/Procesamiento-Adaptativo/blob/main/Proyecto%201/PASA_Proyecto_1_G2.pdf)
+### [Project in IEEE journal format](https://github.com/mbergerman/Procesamiento-Adaptativo/blob/main/Proyecto%201/PASA_Proyecto_1_G2.pdf) (Spanish)
 
-### [Código en formato Python Notebook](https://github.com/mbergerman/Procesamiento-Adaptativo/blob/main/Proyecto%201/PASA_P1_G2.ipynb)
+### [Code in a Python Notebook](https://github.com/mbergerman/Procesamiento-Adaptativo/blob/main/Proyecto%201/PASA_P1_G2.ipynb) (Spanish)
 
-## Parte 2: RLS (Recursive Least Squares)
+## Part 2: RLS (Recursive Least Squares)
 
-### Resumen
-En el presente trabajo complementario se busca implementar mejoras estructurales en el sistema de detección de arritmias previamente presentado y realizar una comparación entre el rendimiento de los algoritmos LMS y RLS para la identificación de anomalías morfológicas presentes en una señal de ECG, las cuales constituyen un tipo de arritmia cardíaca.
+### Abstract
+This complementary project aims to implement structural improvements over the arrhythmia detection system previously presented and perform a comparative analysis between the performance of the LMS and RLS algorithms in identifying morphological anomalies present in ECG signals, which constitute a type of cardiac arrhythmias.
 
-### [Trabajo en formato IEEE](https://github.com/mbergerman/Procesamiento-Adaptativo/blob/main/Proyecto%202/PASA_Proyecto_2_G2.pdf)
+### [Project in IEEE journal format](https://github.com/mbergerman/Procesamiento-Adaptativo/blob/main/Proyecto%202/PASA_Proyecto_2_G2.pdf) (Spanish)
 
-### [Código en formato Python Notebook](https://github.com/mbergerman/Procesamiento-Adaptativo/blob/main/Proyecto%202/PASA_P2_G2.ipynb)
+### [Code in a Python Notebook](https://github.com/mbergerman/Procesamiento-Adaptativo/blob/main/Proyecto%202/PASA_P2_G2.ipynb) (Spanish)
