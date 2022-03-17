@@ -1,27 +1,35 @@
-<ul class="horizontal-list" style="height: 100%;margin: 0;">
-  
-  {% if page.lang == 'en' %}
-    <li>
-      <a href="/">
-        <img src="/images/iconos-lenguajes/ES.png" alt="Cambiar a español" style="width:25px;height:25px;display: block;filter:grayscale(50%);">
-      </a>
-    </li>
-    <li>
-      <a href="en">
-        <img src="/images/iconos-lenguajes/EN.png" alt="Switch to english" style="width:25px;height:25px;display:block;">
-      </a>
-    </li>
-  {% else %}
-    <li>
-      <a href="/">
-        <img src="/images/iconos-lenguajes/ES.png" alt="Cambiar a español" style="width:25px;height:25px;display: block;">
-      </a>
-    </li>
-    <li>
-      <a href="en">
-        <img src="/images/iconos-lenguajes/EN.png" alt="Switch to english" style="width:25px;height:25px;display:block;filter:grayscale(50%);">
-      </a>
-    </li>
-  {% endif %}  
-  
-</ul>
+{% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+
+{% if posts.size == 0 %}
+  {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+{% endif %}
+
+{% if posts.size > 1 %}
+  <ul class="horizontal-list" style="height: 100%;margin:0;">
+    
+    {% if page.lang == 'en' %}
+      <li style="margin-bottom:0;">
+        <a href= "{{ site.base-url }}{{ posts[1].url }}">
+          <img src="/images/iconos-lenguajes/ES.png" alt="Cambiar a español" style="width:25px;height:25px;display: block;filter:grayscale(50%);">
+        </a>
+      </li>
+      <li style="margin-bottom:0;">
+        <a href="{{ site.base-url }}{{ posts[0].url }}">
+          <img src="/images/iconos-lenguajes/EN.png" alt="Switch to english" style="width:25px;height:25px;display:block;">
+        </a>
+      </li>
+    {% else %}
+      <li style="margin-bottom:0;">
+        <a href="{{ site.base-url }}{{ posts[1].url }}">
+          <img src="/images/iconos-lenguajes/ES.png" alt="Cambiar a español" style="width:25px;height:25px;display: block;">
+        </a>
+      </li>
+      <li style="margin-bottom:0;">
+        <a href="{{ site.base-url }}{{ posts[0].url }}">
+          <img src="/images/iconos-lenguajes/EN.png" alt="Switch to english" style="width:25px;height:25px;display:block;filter:grayscale(50%);">
+        </a>
+      </li>
+    {% endif %}  
+    
+  </ul>
+{% endif %}  

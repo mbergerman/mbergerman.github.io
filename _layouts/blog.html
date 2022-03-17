@@ -1,7 +1,19 @@
 ---
 layout: default
 ---
-<a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text[page.lang] }}</a>
+
+<div class="row" style="margin-bottom:16px;">
+  <div class="column">
+      {% if page.lang == 'en' %}
+          <a href="{{ "/en/" | relative_url }}">{{ site.theme_config.back_home_text[page.lang] }}</a>
+      {% else %}
+          <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text[page.lang] }}</a>
+      {% endif %}
+  </div>
+  <div class="column" style="float:right;">
+    {% include language_list.html %}
+  </div>
+</div>
 
 <header>
   <h1>{{ site.title }}</h1>
