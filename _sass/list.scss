@@ -2,6 +2,7 @@ ul.horizontal-list {
   display: flex;
   //justify-content: space-between;
   margin-top: 0em;
+  margin-bottom: 0px;
   margin-left: -40px;
   flex-wrap: wrap;
 
@@ -15,6 +16,24 @@ ul.horizontal-list {
     font-weight: normal
   }
 
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .card {

@@ -1,55 +1,96 @@
 navbar_entries:
-  - title: posts
-    url: posts
-    
-  - title: email
-    url: mailto:mbergerman@itba.edu.ar
-
-  # - title: acerca de mí
-  #   url: acerca de mí
-
-  # - title: posts
-  #   url: blog
+  es:
+    - title: posts
+      url: posts
+      
+    - title: email
+      url: mailto:mbergerman@itba.edu.ar
+  en:
+    - title: posts
+      url: /en/posts
+      
+    - title: email
+      url: mailto:mbergerman@itba.edu.ar
 
 project_entries:
-  - title: Detección de arritmias en tiempo real
-    url: deteccion-de-arritmias-en-tiempo-real
-    desc: Detector de arritmias usando los algoritmos LMS y RLS.
-    image: "images/detector_arritmias.png"
+  es:
+    - title: Detección de arritmias en tiempo real
+      url: deteccion-de-arritmias-en-tiempo-real
+      desc: Detector de arritmias usando los algoritmos LMS y RLS.
+      image: "images/detector_arritmias.png"
 
-  - title: Electronic Filter Design Tool
-    url: https://github.com/mbergerman/FilterTool
-    desc: Herramienta para diseñar filtros a partir del uso de celdas con amplificadores operacionales.
-    image: "images/filter_tool.png"
+    - title: Electronic Filter Design Tool
+      url: https://github.com/mbergerman/FilterTool
+      desc: Herramienta para diseñar filtros a partir del uso de celdas con amplificadores operacionales.
+      image: "images/filter_tool.png"
 
-  - title: WaveForms Scope Python Plotter
-    url: https://github.com/mbergerman/WaveFormsScopePythonPlotter
-    desc: Graficador de señales de scope provenientes del programa Digilent WaveForms.
-    image: "images/waveforms_plot.png"
+    - title: WaveForms Scope Python Plotter
+      url: https://github.com/mbergerman/WaveFormsScopePythonPlotter
+      desc: Graficador de señales de scope provenientes del programa Digilent WaveForms.
+      image: "images/waveforms_plot.png"
 
-  - title: "Cómo construir un robot seguidor de línea con Arduino "
-    url: https://www.instructables.com/Line-Follower-Robot-With-Arduino-Really-Fast-and-R/
-    desc: Pasos a seguir para construir de forma simple un robot seguidor de línea lo más veloz posible.
-    highlight: Inglés
-    image: "images/line_follower_arduino.jpg"
+    - title: "Cómo construir un robot seguidor de línea con Arduino "
+      url: https://www.instructables.com/Line-Follower-Robot-With-Arduino-Really-Fast-and-R/
+      desc: Pasos a seguir para construir de forma simple un robot seguidor de línea lo más veloz posible.
+      highlight: Inglés
+      image: "images/line_follower_arduino.jpg"
 
-  - title: "Programador para PIC basado en el PICKit 2 "
-    url: https://www.instructables.com/How-to-Make-a-PIC-Programmer-PicKit-2-clone/
-    desc: Una placa capaz de programar microcontroladores PIC, basado en el esquemático provisto por Microchip. 
-    highlight: Inglés
-    image: "images/pickit2.jpg"
+    - title: "Programador para PIC basado en el PICKit 2 "
+      url: https://www.instructables.com/How-to-Make-a-PIC-Programmer-PicKit-2-clone/
+      desc: Una placa capaz de programar microcontroladores PIC, basado en el esquemático provisto por Microchip. 
+      highlight: Inglés
+      image: "images/pickit2.jpg"
 
-  - title: "Robot seguidor de línea analógico "
-    url: https://www.instructables.com/Simple-Line-Follower-Robot-With-No-Programming-Ana/
-    desc: Este robot sigue una linea en el piso sin requerir programación, simplemente usa un circuito electrónico.
-    highlight: Inglés
-    image: "images/line_follower_analog.jpg"
+    - title: "Robot seguidor de línea analógico "
+      url: https://www.instructables.com/Simple-Line-Follower-Robot-With-No-Programming-Ana/
+      desc: Este robot sigue una linea en el piso sin requerir programación, simplemente usa un circuito electrónico.
+      highlight: Inglés
+      image: "images/line_follower_analog.jpg"
 
-  - title: CalcuPy
-    url: https://github.com/mbergerman/CalcuPy
-    desc: Mi primer proyecto en Python!
-          Una simple calculadora por consola.
-    image: "images/CalcuPy.png"
+    - title: CalcuPy
+      url: https://github.com/mbergerman/CalcuPy
+      desc: Mi primer proyecto en Python!
+            Una simple calculadora por consola.
+      image: "images/CalcuPy.png"
+  
+  en:
+    - title: Real-time arrhythmia detection
+      url: real-time-arrhythmia-detection
+      desc: Arrhythmia detector implemented with the LMS and RLS algorithms.
+      highlight: Spanish
+      image: "images/detector_arritmias.png"
+
+    - title: Electronic Filter Design Tool
+      url: https://github.com/mbergerman/FilterTool
+      desc: Tool for designing electronic filters by combining operational amplifier cells.
+      image: "images/filter_tool.png"
+
+    - title: WaveForms Scope Python Plotter
+      url: https://github.com/mbergerman/WaveFormsScopePythonPlotter
+      desc: Python plotter for CSV files exported by the Digilent WaveForms software.
+      image: "images/waveforms_plot.png"
+
+    - title: "How to build a line follower robot with Arduino "
+      url: https://www.instructables.com/Line-Follower-Robot-With-Arduino-Really-Fast-and-R/
+      desc: Learn how to make a line follower robot, made to follow a race track as fast as possible.
+      image: "images/line_follower_arduino.jpg"
+
+    - title: "PIC programmer, based on the PICKit 2"
+      url: https://www.instructables.com/How-to-Make-a-PIC-Programmer-PicKit-2-clone/
+      desc: Module designed to program PIC microcontrollers, based on the schematic provided by Microchip.
+      image: "images/pickit2.jpg"
+
+    - title: "Analog Line Follower"
+      url: https://www.instructables.com/Simple-Line-Follower-Robot-With-No-Programming-Ana/
+      desc: A line follower robot that requires no programming, its behaviour is determined by an electronic circuit.
+      image: "images/line_follower_analog.jpg"
+
+    - title: CalcuPy
+      url: https://github.com/mbergerman/CalcuPy
+      desc: My first Python project!
+            A simple console calculator.
+      image: "images/CalcuPy.png"
+  
 
 
 old_project_entries:

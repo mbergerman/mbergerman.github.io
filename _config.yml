@@ -1,10 +1,12 @@
 title: Matías Bergerman
 author: Matías Bergerman
 url: https://mbergerman.github.io/ # root address of the site
-description: > # description of the site (multiple lines allowed)
-  Un sitio para compartir algunos de mis proyectos personales :)
+#> description of the site (multiple lines allowed)
+description:
+  es: Un sitio para compartir algunos de mis proyectos :)
+  en: A website for sharing some of my projects :)
 
-permalink: /:slug
+permalink: /:categories/:slug
 
 favicon: "images/icon.png" # relative path to site's favicon
 
@@ -14,7 +16,9 @@ remote_theme: abhinavs/moonwalk
 theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"
   appearance_toggle: true # if appearance can be switched by user
-  back_home_text: "volver atrás.." # customize text for homepage link in post layout
+  back_home_text: # customize text for homepage link in post layout
+    es: "volver atrás.."
+    en: "go back.."
   date_format: "%d-%m-%Y" # customize how date is formatted
   show_description: true # show blog description
   show_navbar: true # show horizontal navbar
@@ -27,10 +31,18 @@ theme_config:
   show_misc_list: false # show generic vertical list for misc details, add _data/home.yml
   # options for "home" page
   home:
-    title_projects: Proyectos
-    title_misc_list: Detalles
-    title_blog: Posts
-    title_old_projects: Otros Proyectos
+    title_projects:
+      es: Proyectos
+      en: Projects
+    title_misc_list:
+      es: Detalles
+      en: Details
+    title_blog:
+      es: Posts
+      en: Posts
+    title_old_projects:
+      es: Otros Proyectos
+      en: Other Projects
 
 soopr:
   publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options

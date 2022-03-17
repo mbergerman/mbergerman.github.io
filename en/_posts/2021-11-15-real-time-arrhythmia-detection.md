@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Detección de arritmias en tiempo real
+title: Real-time arrhythmia detection
 author: Matías Bergerman, Tobías Demeco, Carola Pedrosa, Matías Tripoli
-lang: es
+lang: en
 lang-ref: deteccion-de-arritmias-en-tiempo-real
 ---
 

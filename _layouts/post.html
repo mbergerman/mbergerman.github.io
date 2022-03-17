@@ -1,8 +1,12 @@
 ---
 layout: default
 ---
+{% if page.lang == 'en' %}
+    <a href="{{ "/en/" | relative_url }}">{{ site.theme_config.back_home_text[page.lang] }}</a>
+{% else %}
+    <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text[page.lang] }}</a>
+{% endif %}
 
-<a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
 <h1 class="post-title">{{ page.title }}</h1>
 {% include date_and_social_share.html %}
 {% include anchor_headings.html html=content anchorBody=" 🔗" anchorClass="anchor_heading" %}

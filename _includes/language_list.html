@@ -1,0 +1,27 @@
+<ul class="horizontal-list" style="height: 100%;margin: 0;">
+  
+  {% if page.lang == 'en' %}
+    <li>
+      <a href="/">
+        <img src="/images/iconos-lenguajes/ES.png" alt="Cambiar a español" style="width:25px;height:25px;display: block;filter:grayscale(50%);">
+      </a>
+    </li>
+    <li>
+      <a href="en">
+        <img src="/images/iconos-lenguajes/EN.png" alt="Switch to english" style="width:25px;height:25px;display:block;">
+      </a>
+    </li>
+  {% else %}
+    <li>
+      <a href="/">
+        <img src="/images/iconos-lenguajes/ES.png" alt="Cambiar a español" style="width:25px;height:25px;display: block;">
+      </a>
+    </li>
+    <li>
+      <a href="en">
+        <img src="/images/iconos-lenguajes/EN.png" alt="Switch to english" style="width:25px;height:25px;display:block;filter:grayscale(50%);">
+      </a>
+    </li>
+  {% endif %}  
+  
+</ul>
