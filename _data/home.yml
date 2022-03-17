@@ -40,18 +40,6 @@ project_entries:
       desc: Una placa capaz de programar microcontroladores PIC, basado en el esquemático provisto por Microchip. 
       highlight: Inglés
       image: "images/pickit2.jpg"
-
-    - title: "Robot seguidor de línea analógico "
-      url: https://www.instructables.com/Simple-Line-Follower-Robot-With-No-Programming-Ana/
-      desc: Este robot sigue una linea en el piso sin requerir programación, simplemente usa un circuito electrónico.
-      highlight: Inglés
-      image: "images/line_follower_analog.jpg"
-
-    - title: CalcuPy
-      url: https://github.com/mbergerman/CalcuPy
-      desc: Mi primer proyecto en Python!
-            Una simple calculadora por consola.
-      image: "images/CalcuPy.png"
   
   en:
     - title: Real-time arrhythmia detection
@@ -79,7 +67,24 @@ project_entries:
       url: https://www.instructables.com/How-to-Make-a-PIC-Programmer-PicKit-2-clone/
       desc: Module designed to program PIC microcontrollers, based on the schematic provided by Microchip.
       image: "images/pickit2.jpg"
+  
 
+old_project_entries:
+
+  es:
+    - title: "Robot seguidor de línea analógico "
+      url: https://www.instructables.com/Simple-Line-Follower-Robot-With-No-Programming-Ana/
+      desc: Este robot sigue una linea en el piso sin requerir programación, simplemente usa un circuito electrónico.
+      highlight: Inglés
+      image: "images/line_follower_analog.jpg"
+
+    - title: CalcuPy
+      url: https://github.com/mbergerman/CalcuPy
+      desc: Mi primer proyecto en Python!
+            Una simple calculadora por consola.
+      image: "images/CalcuPy.png"
+
+  en:
     - title: "Analog Line Follower"
       url: https://www.instructables.com/Simple-Line-Follower-Robot-With-No-Programming-Ana/
       desc: A line follower robot that requires no programming, its behaviour is determined by an electronic circuit.
@@ -90,10 +95,6 @@ project_entries:
       desc: My first Python project!
             A simple console calculator.
       image: "images/CalcuPy.png"
-  
-
-
-old_project_entries:
 
 footer_entries:
   - title: linkedin
