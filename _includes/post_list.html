@@ -3,6 +3,13 @@
 {% if posts.size > 0 %}
   <ul>
     {% for post in posts %}
+      {% if include.type == "featured" and post.featured != true %}
+        {% continue %}
+      {% endif %}
+      {% if include.type == "not-featured" and post.featured == true %}
+        {% continue %}
+      {% endif %}
+
       <li class="post-list-item">
         <span class="home-date">
           {{ post.date | date: site.theme_config.date_format }}»

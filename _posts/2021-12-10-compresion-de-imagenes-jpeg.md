@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Compresión de imágenes JPEG
+title: Cómo funciona la compresión de imágenes JPEG
 author: Matías Bergerman, Pablo González Leiro, Milagros Moutin
 lang: es
 lang-ref: compresion-de-imagenes-jpeg
+featured: true
 ---
 
 > Este trabajo fue realizado para la materia _22.05 - Análisis de Señales y Sistemas Digitales_, del Instituto Tecnológico de Buenos Aires. Profesor: Ing. Daniel Jacoby.

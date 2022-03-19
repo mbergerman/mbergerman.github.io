@@ -45,9 +45,14 @@ layout: default
   {% endif %}  
 {% endif %}
 
+{% if site.theme_config.show_featured == true %}
+  <h2>{{ site.theme_config.home.title_featured[page.lang] }}</h2>
+  {% include post_list.html type="featured" %}
+{% endif %}
+
 {% if site.theme_config.show_blog == true %}
   <h2>{{ site.theme_config.home.title_blog[page.lang] }}</h2>
-  {% include post_list.html %}
+  {% include post_list.html type="not-featured" %}
 {% endif %}
 
 {% if site.theme_config.show_old_projects == true %}
