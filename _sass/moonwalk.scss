@@ -76,9 +76,9 @@ img[src~="short-width"] {
 html {
     --bg: #eaeaea;
     --bg-secondary: #d5d8dd;
-    --headings: #0e8740;
+    --headings: #000;
     --text: #333;
-    --links: #D36135;
+    --links: #1432e6;
     --highlight: #009FFD; // light yellow
     --code-text: #9D174D;
     --share-text: #7a7a7a;
@@ -86,11 +86,11 @@ html {
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   html, body  {
-      --headings: #99C24D;
-      --links: #F18F01;
-      --highlight: #55DDE0;
-      --bg: #2F2D2E;
-      --bg-secondary: #2E4057;
+      --headings: #74c0fc;
+      --links: #80a8ff;
+      --highlight: #41C7C7;
+      --bg: #1f242A;
+      --bg-secondary: #323945;
       --text: #adb5bd;
       --code-text: #91A7FF;
       --share-text: #C4C4C4;
