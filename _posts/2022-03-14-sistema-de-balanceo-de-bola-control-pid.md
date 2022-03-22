@@ -13,7 +13,7 @@ lang-ref: sistema-de-balanceo-de-bola-control-pid
 Como proyecto final de la materia de Sistemas de Control se eligió realizar un sistema de balanceo de bola mediante un control del tipo Proporcional, Integrativo y Derivativo (PID). El objetivo del mismo es balancear una bola sobre una plataforma plana regulando la inclinación de la misma respecto de dos ejes ortogonales.
 
 <p style="text-align:center">
-<img src="images/balanceo-de-bola-images/Table_Picture.png" alt="Foto del dispositivo" style="width: 40%;">
+<img src="images/balanceo-de-bola-images/Table_Picture.png" alt="Foto del dispositivo" style="max-height: 20rem;">
 </p>
 <br>
 
@@ -25,7 +25,7 @@ La posición de la bola es determinada mediante una cámara, la cual se encuentr
 Para el armado del proyecto se utilizó una plataforma de madera de 25cm x 25cm que fue sujetada mediante un cardán impreso en 3D:
 
 <p style="text-align:center">
-<img src="images/balanceo-de-bola-images/cardan.png" alt="Modelo del cardán" style="width: 40%;">
+<img src="images/balanceo-de-bola-images/cardan.png" alt="Modelo del cardán" style="max-height: 20rem;">
 </p>
 
 Se utilizó una cámara [Logitech C920 HD PRO](https://www.logitech.com/es-roam/products/webcams/c920-pro-hd-webcam.960-000764.html) para la adquisición de la posición de la bola mediante conexión USB. Se utilizó un tubo de PVC en forma de L para lograr colocar la cámara por encima de la plataforma de forma tal que se encuentre centrada respecto de la misma.
@@ -34,7 +34,7 @@ Para el control de la inclinación de la mesa se utilizaron 2 servomotores [MG90
 
 
 <p style="text-align:center">
-<img src="images/balanceo-de-bola-images/Table_Up.png" alt="Foto del dispositivo" style="width: 40%;">
+<img src="images/balanceo-de-bola-images/Table_Up.png" alt="Foto del dispositivo" style="max-height: 20rem;">
 </p>
 
 Se utilizó una [Raspberry Pi 4B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) para el control de los servomotores y la adquisición y procesamiento de la información de la cámara.
@@ -84,7 +84,7 @@ Por último, se encontró que existe una "zona muerta" en el sistema. Esto es, s
 El diagrama resultante es el siguiente:
 
 <p style="text-align:center">
-<img src="images/balanceo-de-bola-images/PID Modificado.png" alt="Diagrama del algoritmo PID modificado" style="width: 80%;">
+<img src="images/balanceo-de-bola-images/PID Modificado.png" alt="Diagrama del algoritmo PID modificado" style="max-height: 20rem;">
 </p>
 
 ## Transmisión de datos en tiempo real
