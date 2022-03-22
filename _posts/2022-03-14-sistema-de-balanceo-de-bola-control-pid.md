@@ -49,7 +49,7 @@ Para lograr obtener la posición de la bola, las imágenes capturadas por la cá
 
 Los pasos que sigue este algoritmo son:
 - Reducir la resolución de la imagen para acelerar el tiempo de procesamiento.
-- Aplicar un \textit{gaussian blur} a la imagen.
+- Aplicar un *gaussian blur* a la imagen.
 - Transformar la imagen RGB al espacio de color HSV.
 - Aplicar una máscara que preserve únicamente los píxeles cuyos valores HSV se encuentren dentro del rango apropiado del color de la bola.
 - Aplicar una serie de "erosiones" y "dilataciones" para remover cualquier pequeña mancha que haya quedado.
@@ -78,7 +78,7 @@ output = (Kp * P) + (Ki * I) + (Kd * D)
 
 Sin embargo, se observaron inconvenientes con esta implementación que debieron ser resueltos. El principal problema es que la medición de la posición de la bola tiene presente ruido significativo, debido principalmente a la vibración del dispositivo, la precisión de la cámara, la latencia variable del sistema y las pequeñas inconsistencias en el algoritmo de detección. Este ruido de alta frecuencia se amplifica por la componente derivativa, y como consecuencia la señal enviada a los servomotores es ruidosa provocando que el sistema tenga vibraciones notorias. El problema fue solucionado colocando únicamente a la entrada del bloque derivativo un filtro pasa-bajos para reducir la amplitud del ruido de alta frecuencia que este recibe. Para simplificar la implementación del filtro simplemente se utilizó una media móvil de 5 "taps".
 
-Otro problema encontrado es el *windup* del componente integrativo. El valor acumulado del error podía crecer más allá de lo que es razonable, y debía ser saturado. Esto previene que si por alguna razón la bola permanece durante un largo tiempo alejada del \textit{set point}, la integral no crezca ilimitadamente imposibilitando que cuando se libere a la bola esta se estabilice en el objetivo.
+Otro problema encontrado es el *windup* del componente integrativo. El valor acumulado del error podía crecer más allá de lo que es razonable, y debía ser saturado. Esto previene que si por alguna razón la bola permanece durante un largo tiempo alejada del *set point*, la integral no crezca ilimitadamente imposibilitando que cuando se libere a la bola esta se estabilice en el objetivo.
 
 Por último, se encontró que existe una "zona muerta" en el sistema. Esto es, si la bola se encuentra detenida se requiere un ángulo de inclinación mínimo para que esta comience a moverse. Esto provoca que pequeños errores se acumulen en la integral y luego de cierto tiempo la bola sea disparada cuando la inclinación de la plataforma supera el umbral mínimo que provoca el movimiento de la bola. Para mitigar este problema se aplicó una "zona muerta" al valor del error que ingresa al bloque integrador, de forma tal que ignore valores muy pequeños del error.
 
