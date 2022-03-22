@@ -19,6 +19,11 @@ project_entries:
       desc: Detector de arritmias usando los algoritmos LMS y RLS.
       image: "images/detector_arritmias.png"
 
+    - title: Sistema de balanceo de bola mediante control PID
+      url: sistema-de-balanceo-de-bola-control-pid
+      desc: Plataforma que se inclina automáticamente para balancear una bola aplicando control PID.
+      image: "images/ball_balancer.jpeg"
+
     - title: Electronic Filter Design Tool
       url: https://github.com/mbergerman/FilterTool
       desc: Herramienta para diseñar filtros a partir del uso de celdas con amplificadores operacionales.
