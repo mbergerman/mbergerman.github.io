@@ -13,12 +13,14 @@ lang-ref: sistema-de-balanceo-de-bola-control-pid
 Como proyecto final de la materia de Sistemas de Control se eligió realizar un sistema de balanceo de bola mediante un control del tipo Proporcional, Integrativo y Derivativo (PID). El objetivo del mismo es balancear una bola sobre una plataforma plana regulando la inclinación de la misma respecto de dos ejes ortogonales.
 
 <p style="text-align:center">
-<img src="images/balanceo-de-bola-images/Table_Picture.png" alt="Foto del dispositivo" style="max-height: 20rem;">
+<img src="images/balanceo-de-bola-images/ball_balancer_1.gif" alt="Gif del dispositivo" style="max-height: 30rem;">
 </p>
-<br>
 
 La posición de la bola es determinada mediante una cámara, la cual se encuentra colocada sobre la plataforma, cuya imagen se procesa utilizando una Raspberry Pi. A partir de la posición de la bola medida y la posición deseada se determina cómo debe inclinarse la plataforma mediante dos servo motores que modifican el ángulo de la misma en sus dos ejes ortogonales de forma independiente. Por otro lado, la Raspberry Pi se encuentra conectada mediante internet a un servidor [MQTT](https://mqtt.org/) de forma tal que envía constantemente datos en tiempo real sobre la posición de la bola medida y la posición deseada. Estos datos pueden ser analizados desde cualquier terminal conectada al mismo servidor, y ser graficados en tiempo real mediante un programa Python.
 
+<p style="text-align:center">
+<img src="images/balanceo-de-bola-images/ball_balancer_2.gif" alt="Server GUI GIF" style="max-height: 20rem;">
+</p>
 
 # Hardware
 
@@ -31,7 +33,6 @@ Para el armado del proyecto se utilizó una plataforma de madera de 25cm x 25cm 
 Se utilizó una cámara [Logitech C920 HD PRO](https://www.logitech.com/es-roam/products/webcams/c920-pro-hd-webcam.960-000764.html) para la adquisición de la posición de la bola mediante conexión USB. Se utilizó un tubo de PVC en forma de L para lograr colocar la cámara por encima de la plataforma de forma tal que se encuentre centrada respecto de la misma.
 
 Para el control de la inclinación de la mesa se utilizaron 2 servomotores [MG90S](https://www.electronicoscaldas.com/datasheet/MG90S_Tower-Pro.pdf) conectados a la plataforma mediante un alambre rígido para transmitir el movimiento de los motores.
-
 
 <p style="text-align:center">
 <img src="images/balanceo-de-bola-images/Table_Up.png" alt="Foto del dispositivo" style="max-height: 20rem;">
@@ -93,7 +94,6 @@ Para permitir la transmisión de datos en tiempo real se implementó un cliente 
 <p style="text-align:center">
 <img src="images/balanceo-de-bola-images/server_gui.png" alt="Server GUI" style="width: 100%;">
 </p>
-
 
 ## Código del proyecto
 
