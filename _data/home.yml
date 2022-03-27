@@ -53,6 +53,11 @@ project_entries:
       highlight: Spanish
       image: "images/detector_arritmias.png"
 
+    - title: Ball balancing system with PID control
+      url: ball-balancing-system-pid-control
+      desc: Platform which tilts automatically in order to balance a ball with the use of PID control.
+      image: "images/ball_balancer.jpeg"
+
     - title: Electronic Filter Design Tool
       url: https://github.com/mbergerman/FilterTool
       desc: Tool for designing electronic filters by combining operational amplifier cells.

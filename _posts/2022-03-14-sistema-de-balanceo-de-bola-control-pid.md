@@ -101,34 +101,34 @@ El programa se implementó en Python, utilizando la biblioteca `multiprocessing`
 se comunican entre sí usando Pipes. Los archivos se pueden descargar a continuación:
 
 
-<a href="/assets/files/balanceo-de-bola-files/ball_balancer.py" download>
+<a class="download_link" href="/assets/files/balanceo-de-bola-files/ball_balancer.py" download>
   ⬇️ Descargar `ball_balancer.py`
 </a>
 
-<a href="/assets/files/balanceo-de-bola-files/ball_tracking.py" download>
+<a class="download_link" href="/assets/files/balanceo-de-bola-files/ball_tracking.py" download>
   ⬇️ Descargar `ball_tracking.py`
 </a>
 
-<a href="/assets/files/balanceo-de-bola-files/servo_control.py" download>
+<a class="download_link" href="/assets/files/balanceo-de-bola-files/servo_control.py" download>
   ⬇️ Descargar `servo_control.py`
 </a>
 
-<a href="/assets/files/balanceo-de-bola-files/pid.py" download>
+<a class="download_link" href="/assets/files/balanceo-de-bola-files/pid.py" download>
   ⬇️ Descargar `pid.py`
 </a>
 
 Además, usamos un código para calibrar los umbrales HSV que componen la máscara binaria en el proceso de detección de bola:
 
-<a href="/assets/files/balanceo-de-bola-files/range_detector.py" download>
+<a class="download_link" href="/assets/files/balanceo-de-bola-files/range_detector.py" download>
   ⬇️ Descargar `range_detector.py`
 </a>
 
 Para el graficador se usó el broker de MQTT [mosquitto](https://mosquitto.org/download/), y se implementó el siguiente código:
 
-<a href="/assets/files/balanceo-de-bola-files/mqtt_client.py" download>
+<a class="download_link" href="/assets/files/balanceo-de-bola-files/mqtt_client.py" download>
   ⬇️ Descargar `mqtt_client.py`
 </a>
 
-<a href="/assets/files/balanceo-de-bola-files/plot_realtime.py" download>
+<a class="download_link" href="/assets/files/balanceo-de-bola-files/plot_realtime.py" download>
   ⬇️ Descargar `plot_realtime.py`
 </a>
