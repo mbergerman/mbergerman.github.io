@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Implementación de un sistema de balanceo de bola mediante control PID
-author: Matías Bergerman, Phillipe Dutriez, Francisco Ledesma, Xi Lin, Pablo Smolkin
+author: Matías Bergerman, Philippe Dutriez, Francisco Ledesma, Xi Lin, Pablo Smolkin
 lang: es
 lang-ref: sistema-de-balanceo-de-bola-control-pid
 ---

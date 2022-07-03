@@ -5,6 +5,8 @@ subtitle: # description of the site (multiple lines allowed)
   es: Un sitio para compartir algunos de mis proyectos :)
   en: A website for sharing some of my projects :)
 
+google_analytics: G-PS7K9SKRVT
+
 permalink: /:categories/:slug
 
 favicon: "images/icon.png" # relative path to site's favicon

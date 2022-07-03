@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ball balancing system with PID control
-author: Matías Bergerman, Phillipe Dutriez, Francisco Ledesma, Xi Lin, Pablo Smolkin
+author: Matías Bergerman, Philippe Dutriez, Francisco Ledesma, Xi Lin, Pablo Smolkin
 lang: en
 lang-ref: sistema-de-balanceo-de-bola-control-pid
 ---
