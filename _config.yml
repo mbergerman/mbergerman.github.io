@@ -2,8 +2,13 @@ title: Matías Bergerman
 author: Matías Bergerman
 url: https://mbergerman.github.io/ # root address of the site
 subtitle: # description of the site (multiple lines allowed)
-  es: Un sitio para compartir algunos de mis proyectos :)
-  en: A website for sharing some of my projects :)
+  es: Este es un sitio para compartir algunos de mis proyectos :)<br>
+      Me apasiona la electrónica, robótica, programación, matemáticas y la música.<br>
+      Estudio <b>Ingeniería Electrónica</b> en el Instituto Tecnológico de Buenos Aires en Argentina y me especializo en <b>Procesamiento de Señales</b>. Actualmente estoy en mi último año de carrera.
+
+  en: This is a website for sharing some of my projects :)<br>
+      I'm passionate about electronics, robotics, coding, mathematics, and music.<br>
+      I study <b>Electronics Engineering</b> at the Buenos Aires Institure of Technology (ITBA) in Argentina, and I specialise in <b>Signal Processing</b>. Currently, I am in the last year of my degree.
 
 google_analytics: G-PS7K9SKRVT
 

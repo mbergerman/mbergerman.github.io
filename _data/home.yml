@@ -14,7 +14,7 @@ navbar_entries:
 
 project_entries:
   es:
-    - title: Detección de arritmias en tiempo real
+    - title: Detector adaptativo de arritmias en tiempo real
       url: deteccion-de-arritmias-en-tiempo-real
       desc: Detector de arritmias usando los algoritmos LMS y RLS.
       image: "images/detector_arritmias.png"
@@ -47,7 +47,7 @@ project_entries:
       image: "images/pickit2.jpg"
   
   en:
-    - title: Real-time arrhythmia detection
+    - title: Real-time adaptative arrhythmia detector
       url: real-time-arrhythmia-detection
       desc: Arrhythmia detector implemented with the LMS and RLS algorithms.
       highlight: Spanish

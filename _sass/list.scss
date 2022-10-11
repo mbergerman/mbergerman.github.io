@@ -8,7 +8,7 @@ ul.horizontal-list {
 
   li {
     display:inline;
-    margin-right: 1em;
+    margin-right: 1.6em;
   }
 
   li a {
@@ -37,9 +37,8 @@ ul.horizontal-list {
 }
 
 .card {
-  padding: 1em;
-  border: 1.8px var(--text) solid;
-  width: 13em;
+  padding: 1.2em;
+  width: 16em;
   height: auto;
   text-align: center;
   font-size: 1em;
@@ -53,7 +52,7 @@ ul.horizontal-list {
   }
 
   .body {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   hr {

@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 
 html { height: 100%; }
 
 body {
-  font-family:  "Inter", -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.0rem;
   line-height: 2;
   margin: 0;
@@ -17,14 +17,11 @@ pre, code {
 
 h2, h3, h4, h5 { margin-top: 1.5em; }
 
-hr { margin: 1em 0; }
-
-hr.page-break {
-  text-align: center;
+hr {
+  margin: 1em 0;
   border: 0;
-
-  &:before { content: '-----' }
-  &:after { content: attr(data-content) '-----' }
+  height: 1px;
+  background-color: var(--text);
 }
 
 p { margin: 1em 0; }
@@ -32,7 +29,7 @@ p { margin: 1em 0; }
 li { margin: 0.4em 0; }
 
 .w {
-  max-width: 780px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 4em 2em;
 }
@@ -74,12 +71,12 @@ img[src~="short-width"] {
 
 
 html {
-    --bg: #eaeaea;
-    --bg-secondary: #d5d8dd;
+    --bg: #f6f6f6;
+    --bg-secondary: #ccced3;
     --headings: #000;
     --text: #333;
-    --links: #1432e6;
-    --highlight: #009FFD; // light yellow
+    --links: #1431d4;
+    --highlight: #6bc6fa; // light blue
     --code-text: #9D174D;
     --share-text: #7a7a7a;
 }
@@ -88,7 +85,7 @@ html {
   html, body  {
       --headings: #74c0fc;
       --links: #80a8ff;
-      --highlight: #41C7C7;
+      --highlight: #65d9eb;
       --bg: #1f242A;
       --bg-secondary: #323945;
       --text: #adb5bd;
@@ -108,7 +105,7 @@ html, body {
     color: var(--text);
 }
 h1, h2, h3, h4, h5, h6 {
-    color: var(--headings);
+  color: var(--headings);
 }
 h1 em, h2 em, h3 em, h4 em, h5 em, h6 em{
   color: var(--headings);
@@ -197,6 +194,11 @@ p code, li code {
   padding: 0.2rem;
   color: var(--code-text);
   font-weight: bold;
+}
+.site-title {
+  font-size: 2.5em;
+  margin-top:-0.5rem;
+  margin-bottom:-1.0rem;
 }
 .post-title {
   margin-bottom:-1.5rem;
