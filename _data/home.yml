@@ -16,7 +16,7 @@ project_entries:
   es:
     - title: Detector adaptativo de arritmias en tiempo real
       url: deteccion-de-arritmias-en-tiempo-real
-      desc: Detector de arritmias usando los algoritmos LMS y RLS.
+      desc: Detector de arritmias usando los algoritmos adaptativos LMS y RLS.
       image: "images/detector_arritmias.png"
 
     - title: Sistema de balanceo de bola mediante control PID
@@ -24,15 +24,15 @@ project_entries:
       desc: Plataforma que se inclina automáticamente para balancear una bola aplicando control PID.
       image: "images/ball_balancer.jpeg"
 
+    - title: Vocoder musical en tiempo real mediante LPC
+      url: vocoder-musical-en-tiempo-real
+      desc: Aplicación de Python que implementa el algoritmo LPC en la realización de un vocoder musical.
+      image: "images/vocoder.png"
+
     - title: Electronic Filter Design Tool
       url: https://github.com/mbergerman/FilterTool
       desc: Herramienta para diseñar filtros a partir del uso de celdas con amplificadores operacionales.
       image: "images/filter_tool.png"
-
-    - title: WaveForms Scope Python Plotter
-      url: https://github.com/mbergerman/WaveFormsScopePythonPlotter
-      desc: Graficador de señales de scope provenientes del programa Digilent WaveForms.
-      image: "images/waveforms_plot.png"
 
     - title: "Cómo construir un robot seguidor de línea con Arduino "
       url: https://www.instructables.com/Line-Follower-Robot-With-Arduino-Really-Fast-and-R/
@@ -58,15 +58,15 @@ project_entries:
       desc: Platform which tilts automatically in order to balance a ball with the use of PID control.
       image: "images/ball_balancer.jpeg"
 
+    - title: Real-time musical Vocoder using LPC
+      url: real-time-music-vocoder
+      desc: Python application that implements the LPC algorithm in a musical vocoder.
+      image: "images/vocoder.png"
+
     - title: Electronic Filter Design Tool
       url: https://github.com/mbergerman/FilterTool
       desc: Tool for designing electronic filters by combining operational amplifier cells.
       image: "images/filter_tool.png"
-
-    - title: WaveForms Scope Python Plotter
-      url: https://github.com/mbergerman/WaveFormsScopePythonPlotter
-      desc: Python plotter for CSV files exported by the Digilent WaveForms software.
-      image: "images/waveforms_plot.png"
 
     - title: "How to build a line follower robot with Arduino "
       url: https://www.instructables.com/Line-Follower-Robot-With-Arduino-Really-Fast-and-R/
@@ -82,6 +82,11 @@ project_entries:
 old_project_entries:
 
   es:
+    - title: WaveForms Scope Python Plotter
+      url: https://github.com/mbergerman/WaveFormsScopePythonPlotter
+      desc: Graficador de señales de scope provenientes del programa Digilent WaveForms.
+      image: "images/waveforms_plot.png"
+
     - title: "Robot seguidor de línea analógico "
       url: https://www.instructables.com/Simple-Line-Follower-Robot-With-No-Programming-Ana/
       desc: Este robot sigue una linea en el piso sin requerir programación, simplemente usa un circuito electrónico.
@@ -95,6 +100,11 @@ old_project_entries:
       image: "images/CalcuPy.png"
 
   en:
+    - title: WaveForms Scope Python Plotter
+      url: https://github.com/mbergerman/WaveFormsScopePythonPlotter
+      desc: Python plotter for CSV files exported by the Digilent WaveForms software.
+      image: "images/waveforms_plot.png"
+
     - title: "Analog Line Follower"
       url: https://www.instructables.com/Simple-Line-Follower-Robot-With-No-Programming-Ana/
       desc: A line follower robot that requires no programming, its behaviour is determined by an electronic circuit.
