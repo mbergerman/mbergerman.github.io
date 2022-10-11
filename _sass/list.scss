@@ -46,6 +46,7 @@ ul.horizontal-list {
   background-color: var(--bg-secondary);
   margin-bottom: 0.8em;
   border-radius: 0.8em;
+  cursor: pointer;
 
   .header {
     color: var(--links);
@@ -61,7 +62,10 @@ ul.horizontal-list {
     height: 1px;
     background-color: var(--text);
   }
+}
 
+.card:hover{
+  background-color: var(--bg-secondary-hover);
 }
 
 /* Responsive cards - one column layout on small screens */
