@@ -6,7 +6,7 @@ lang: es
 lang-ref: vocoder-musical-en-tiempo-real
 ---
 
-> Este trabajo fue realizado para la materia *22.47 - Procesamiento de Voz*, del Instituto Tecnológico de Buenos Aires. Profesor: Ing. Marc Ressl.
+> Este trabajo fue realizado para la materia *22.47 - Procesamiento de Voz*, del Instituto Tecnológico de Buenos Aires.<br>**Profesor:** Ing. Marc Ressl.
 
 ## Presentación del proyecto en video
 

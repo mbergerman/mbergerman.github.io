@@ -6,7 +6,7 @@ lang: es
 lang-ref: deteccion-de-arritmias-en-tiempo-real
 ---
 
-> Este trabajo fue realizado para la materia *22.46 - Procesamiento Adaptativo de Señales*, del Instituto Tecnológico de Buenos Aires. Profesor: Ing. Marc Ressl.
+> Este trabajo fue realizado para la materia *22.46 - Procesamiento Adaptativo de Señales*, del Instituto Tecnológico de Buenos Aires.<br>**Profesor:** Ing. Marc Ressl.
 
 ## Parte 1: LMS (Least Mean Squares)
 

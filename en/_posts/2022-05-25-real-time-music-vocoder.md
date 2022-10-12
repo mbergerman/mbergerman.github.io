@@ -6,7 +6,7 @@ lang: en
 lang-ref: vocoder-musical-en-tiempo-real
 ---
 
-> This project was made for the course *22.47 - Voice Processing*, at the Buenos Aires Institute of Technology (ITBA). Professor: Ing. Marc Ressl.
+> This project was made for the course *22.47 - Voice Processing*, at the Buenos Aires Institute of Technology (ITBA).<br>**Professor:** Ing. Marc Ressl.
 
 ## Video presentation of the project (Spanish)
 

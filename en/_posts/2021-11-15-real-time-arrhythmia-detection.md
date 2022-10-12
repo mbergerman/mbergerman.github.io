@@ -7,7 +7,7 @@ lang-ref: deteccion-de-arritmias-en-tiempo-real
 featured: true
 ---
 
-> This project was made for the course *22.46 - Adaptive Signal Processing*, at the Buenos Aires Institute of Technology (ITBA). Professor: Ing. Marc Ressl.
+> This project was made for the course *22.46 - Adaptive Signal Processing*, at the Buenos Aires Institute of Technology (ITBA). <br>**Professor:** Ing. Marc Ressl.
 
 ## Part 1: LMS (Least Mean Squares)
 

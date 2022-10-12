@@ -6,7 +6,7 @@ lang: es
 lang-ref: sistema-de-balanceo-de-bola-control-pid
 ---
 
-> Este trabajo fue realizado para la materia *22.85 - Sistemas de Control*, del Instituto Tecnológico de Buenos Aires. Profesor: Ing. Víctor Nasini.
+> Este trabajo fue realizado para la materia *22.85 - Sistemas de Control*, del Instituto Tecnológico de Buenos Aires.<br>**Profesor:** Ing. Víctor Nasini.
 
 # Introducción
 

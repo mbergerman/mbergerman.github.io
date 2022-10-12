@@ -7,7 +7,7 @@ lang-ref: compresion-de-imagenes-jpeg
 featured: true
 ---
 
-> Este trabajo fue realizado para la materia _22.05 - Análisis de Señales y Sistemas Digitales_, del Instituto Tecnológico de Buenos Aires. Profesor: Ing. Daniel Jacoby.
+> Este trabajo fue realizado para la materia _22.05 - Análisis de Señales y Sistemas Digitales_, del Instituto Tecnológico de Buenos Aires.<br>**Profesor:** Ing. Daniel Jacoby.
 
 ### [Trabajo completo en formato PDF](https://github.com/mbergerman/JPEG-Encoder/blob/main/ASSD_TPF_G3/TPFinal_ASSD.pdf)
 

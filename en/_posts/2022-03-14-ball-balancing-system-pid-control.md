@@ -6,7 +6,7 @@ lang: en
 lang-ref: sistema-de-balanceo-de-bola-control-pid
 ---
 
-> This project was made for the course *22.85 - Control Systems*, at the Buenos Aires Institute of Technology (ITBA). Professor: Ing. Víctor Nasini.
+> This project was made for the course *22.85 - Control Systems*, at the Buenos Aires Institute of Technology (ITBA).<br>**Professor:** Ing. Víctor Nasini.
 
 # Introduction
 
