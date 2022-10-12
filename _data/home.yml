@@ -133,8 +133,5 @@ footer_entries:
   - title: github
     url: https://github.com/mbergerman
 
-  - title: email
-    url: mailto:mbergerman@itba.edu.ar
-
 footer_right_text:  mbergerman@itba.edu.ar
 
