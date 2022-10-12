@@ -29,22 +29,27 @@ project_entries:
       desc: Aplicación de Python que implementa el algoritmo LPC en la realización de un vocoder musical.
       image: "images/vocoder.png"
 
+    - title: Fresadora CNC de diseño propio
+      url: fresadora-cnc
+      desc: Cortadora de madera CNC diseñada a partir de piezas cortadas por láser e impresas en 3D.
+      image: "images/fresadora_cnc.png"
+
     - title: Electronic Filter Design Tool
       url: https://github.com/mbergerman/FilterTool
       desc: Herramienta para diseñar filtros a partir del uso de celdas con amplificadores operacionales.
       image: "images/filter_tool.png"
-
-    - title: "Cómo construir un robot seguidor de línea con Arduino "
-      url: https://www.instructables.com/Line-Follower-Robot-With-Arduino-Really-Fast-and-R/
-      desc: Pasos a seguir para construir de forma simple un robot seguidor de línea lo más veloz posible.
-      highlight: Inglés
-      image: "images/line_follower_arduino.jpg"
 
     - title: "Programador para PIC basado en el PICKit 2 "
       url: https://www.instructables.com/How-to-Make-a-PIC-Programmer-PicKit-2-clone/
       desc: Una placa capaz de programar microcontroladores PIC, basado en el esquemático provisto por Microchip. 
       highlight: Inglés
       image: "images/pickit2.jpg"
+
+    - title: "Cómo construir un robot seguidor de línea con Arduino "
+      url: https://www.instructables.com/Line-Follower-Robot-With-Arduino-Really-Fast-and-R/
+      desc: Pasos a seguir para construir de forma simple un robot seguidor de línea lo más veloz posible.
+      highlight: Inglés
+      image: "images/line_follower_arduino.jpg"
   
   en:
     - title: Real-time adaptative arrhythmia detector
@@ -63,20 +68,25 @@ project_entries:
       desc: Python application that implements the LPC algorithm in a musical vocoder.
       image: "images/vocoder.png"
 
+    - title: Custom-designed CNC milling machine
+      url: cnc-mill
+      desc: CNC wood mill designed from laser-cut and 3D-printed parts.
+      image: "images/fresadora_cnc.png"
+
     - title: Electronic Filter Design Tool
       url: https://github.com/mbergerman/FilterTool
       desc: Tool for designing electronic filters by combining operational amplifier cells.
       image: "images/filter_tool.png"
 
-    - title: "How to build a line follower robot with Arduino "
-      url: https://www.instructables.com/Line-Follower-Robot-With-Arduino-Really-Fast-and-R/
-      desc: Learn how to make a line follower robot, made to follow a race track as fast as possible.
-      image: "images/line_follower_arduino.jpg"
-
     - title: "PIC programmer, based on the PICKit 2"
       url: https://www.instructables.com/How-to-Make-a-PIC-Programmer-PicKit-2-clone/
       desc: Module designed to program PIC microcontrollers, based on the schematic provided by Microchip.
       image: "images/pickit2.jpg"
+
+    - title: "How to build a line follower robot with Arduino "
+      url: https://www.instructables.com/Line-Follower-Robot-With-Arduino-Really-Fast-and-R/
+      desc: Learn how to make a line follower robot, made to follow a race track as fast as possible.
+      image: "images/line_follower_arduino.jpg"
   
 
 old_project_entries:
@@ -84,7 +94,7 @@ old_project_entries:
   es:
     - title: WaveForms Scope Python Plotter
       url: https://github.com/mbergerman/WaveFormsScopePythonPlotter
-      desc: Graficador de señales de scope provenientes del programa Digilent WaveForms.
+      desc: Graficador de señales de osciloscopio provenientes del programa Digilent WaveForms.
       image: "images/waveforms_plot.png"
 
     - title: "Robot seguidor de línea analógico "
