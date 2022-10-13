@@ -16,7 +16,7 @@ El procesador denominado *EV22*, por "Electrónica V 2022", incorpora paralelism
 
 En principio, el esquema básico es el de la siguiente figura:
 <p style="text-align:center">
-<img src="images/procesador-risc-fpga-images/EV22.png" alt="Esquema del procesador" style="max-height: 30rem;">
+<img src="images/procesador-risc-fpga-images/EV22.svg" alt="Esquema del procesador" style="background-color:white;max-height: 30rem;">
 Esquema del EV22.
 </p>
 
@@ -32,7 +32,7 @@ Posee un banco de registros con 35 registros. 28 de ellos son de uso general, 2 
 
 En la primer columna de la siguiente figura se muestran los *opcodes* de las instrucciones del EV22:
 <p style="text-align:center">
-<img src="images/procesador-risc-fpga-images/EV22.png" alt="Esquema del procesador" style="max-height: 30rem;">
+<img src="images/procesador-risc-fpga-images/Cartilla instrucciones original.png" alt="Cartilla de instrucciones original" style="max-height: 30rem;">
 Cartilla de instrucciones del EV22.
 </p>
 
