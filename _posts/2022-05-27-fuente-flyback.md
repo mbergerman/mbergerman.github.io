@@ -12,8 +12,8 @@ El objetivo de este trabajo es diseñar una fuente Flyback con una entrada de $2
 
 
 <p style="text-align:center">
-   <img src="images/fuente-flyback-images/foto_flyback_1.jpg" alt="" style="max-width:28rem;max-height=30rem;display:inline-block;margin:1%;">
-   <img src="images/fuente-flyback-images/foto_flyback_2.jpg" alt="" style="max-width:28rem;max-height=30rem;display:inline-block;margin:1%;">
+    <img src="images/fuente-flyback-images/foto_flyback_1.jpg" alt="" style="max-width:45%;max-height=30rem;display:inline-block;margin:1%;">
+    <img src="images/fuente-flyback-images/foto_flyback_2.jpg" alt="" style="max-width:45%;max-height=30rem;display:inline-block;margin:1%;">
 </p>
 
 Para empezar, se partió del circuito de aplicación típica provisto por el fabricante, el cual se puede observar a continuación:
@@ -33,6 +33,7 @@ Sobre este circuito, se agrega un rectificador de tensión de línea a la entrad
 
 Los principales parámetros de diseño se pueden observar en la Tabla que se ve a continuación. Algunos de estos parámetros debieron ser modificados en forma leve para adecuarse a la disponibilidad de componentes.
 
+<div class="scrollbox">
 <table>
     <tr>
         <td><b>Parámetro</b></td>
@@ -130,10 +131,12 @@ Los principales parámetros de diseño se pueden observar en la Tabla que se ve 
         <td>%</td>
     </tr>
 </table>
+</div>
 
 A partir de los parámetros de diseño se calcularon el resto de los parámetros necesarios para realizar una implementación del circuito. Los resultados y los componentes seleccionados para adecuarse a estos se pueden ver en las siguientes Tablas:
 
 
+<div class="scrollbox">
 <table>
     <tr>
         <td><b>Componente</b></td>
@@ -188,7 +191,9 @@ A partir de los parámetros de diseño se calcularon el resto de los parámetros
         <td>FR107</td>
     </tr>
 </table>
+</div>
 <br>
+<div class="scrollbox">
 <table>
     <tr>
         <td><b>Parámetro</b></td>
@@ -299,6 +304,7 @@ A partir de los parámetros de diseño se calcularon el resto de los parámetros
         <td>V</td>
     </tr>
 </table>
+</div>
 
 # Simulación del circuito
 Debido a la falta de un modelo de SPICE apropiado para simular el comportamiento del TinySwitch-4, las simulaciones del circuito debieron ser realizadas sin tomar en cuenta el circuito de realimentación. La conmutación se realizó con una llave ideal controlada mediante PWM de duty-cycle constante. Se realizaron las simulaciones tanto con un valor de inductancia de dispersión en el transformador igual a 0 (caso ideal), como con un valor del $0,178 mH$, que se corresponde al medido en el transformador construido; de esta forma se pueden comparar ambos casos y verificar los efectos de la inductancia de dispersión.
@@ -360,7 +366,7 @@ En la Figura siguiente se observan las corrientes presentes en el snubber. En el
 El transformador una vez bobinado fue medido usando el analizador de impedancias del laboratorio. Para verificar la inductancia del devanado primario y secundario se deja abierto el devanado opuesto mientras que para medir la inductancia de dispersión del primario se cortocircuitó el secundario. En la Figura siguiente se puede ver una fotografía de la medición del bobinado secundario; el valor medido se corresponde aproximadamente con el valor teórico calculado de la inductancia $L_2$, tal como se ve en la tabla \ref{tab:resultados-diseño}.
 
 <p style="text-align:center">
-   <img src="images/fuente-flyback-images/Medidor de Impedancias.jpeg" alt="" style="max-width:30rem;max-height=30rem;">
+   <img src="images/fuente-flyback-images/Medidor de Impedancias.jpeg" alt="" style="max-width:40%;max-height=30rem;">
 </p>
 
 Adicionalmente se verificó la relación $N_1/N_2$ aplicando una señal senoidal con el generador de señales a uno de los devanados, y midiendo la señal de salida en el otro devanado con un osciloscopio.
@@ -372,7 +378,7 @@ Las mediciones se realizaron utilizando un autotransformador (Variac) aislado ga
 
 
 <p style="text-align:center">
-   <img src="images/fuente-flyback-images/Foto Variac.jpeg" alt="" style="max-width:30rem;max-height=30rem;">
+   <img src="images/fuente-flyback-images/Foto Variac.jpeg" alt="" style="max-width:40%;max-height=30rem;">
 </p>
 
 
@@ -393,7 +399,6 @@ En las Figuras siguientes se muestra la tensión sobre el Drain del MOSFET:
 En ellas se evidencia el pico de tensión en el momento del apagado que es mitigado por el snubber manteniéndose siempre por debajo de los $600V$. Sin embargo, se nota que las resonancias presentes en la simulación tienen una amplitud menor para las mediciones sobre el circuito, dado que estas son atenuadas por las pérdidas propias de la placa y los componentes reales. Adicionalmente, se puede ver que el límite de corriente dinámico que establece el TinySwitch-4 es tal que en ciertos ciclos el sistema opera en el modo discontinuo mientras que en otros opera en el modo continuo. Este fenómeno se evidencia en la aparición de oscilaciones durante el tiempo de apagado, debidas a que cuando la corriente del secundario llega a cero, aparece una corriente de recuperación en el diodo de salida que excita al circuito resonador formado entre la inductancia de magnetización del transformador y las capacitancias del MOSFET. Al modificar la carga se observó que el porcentaje de ciclos en DCM disminuye al aumentar la carga, llegando casi a una totalidad de ciclos en CCM para una $P_o=30W$.
 
 
+[^1]: <a href="https://www.power.com/sites/default/files/documents/tinyswitch-4_family_datasheet.pdf" style="word-wrap:break-word;">https://www.power.com/sites/default/files/documents/tinyswitch-4_family_datasheet.pdf</a>
 
-
-[^1]: [https://www.power.com/sites/default/files/documents/tinyswitch-4_family_datasheet.pdf](https://www.power.com/sites/default/files/documents/tinyswitch-4_family_datasheet.pdf)
-[^2]: [https://cdn.hackaday.io/files/1709627314438208/AN%204147.pdf](https://cdn.hackaday.io/files/1709627314438208/AN%204147.pdf)
+[^2]: <a href="https://cdn.hackaday.io/files/1709627314438208/AN%204147.pdf" style="word-wrap:break-word;">https://cdn.hackaday.io/files/1709627314438208/AN%204147.pdf</a>
