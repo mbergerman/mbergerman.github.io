@@ -119,7 +119,7 @@ project_entries:
       image: "images/line_follower_arduino.jpg"
   
 
-old_project_entries:
+other_project_entries:
   es:
     - title: WaveForms Scope Python Plotter
       url: https://github.com/mbergerman/WaveFormsScopePythonPlotter
@@ -162,5 +162,6 @@ footer_entries:
   - title: github
     url: https://github.com/mbergerman
 
-footer_right_text:  mbergerman@itba.edu.ar
+  - title:  mbergerman@itba.edu.ar
+    url: false
 
