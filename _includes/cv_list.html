@@ -1,0 +1,29 @@
+<ul class="horizontal-list">
+  {% for item in include.collection %}
+
+    <li class="info-box">
+      <p class="header">
+        {{ item.title }}
+      </p>
+
+      {% if item.loc != false %}
+        <p class="loc">
+          {{ item.loc }}
+        </p>
+      {% endif %}
+
+      {% if item.date != false %}
+        <p class="date">
+          {{ item.date }}
+        </p>
+      {% endif %}
+      
+      {% if item.desc != false %}
+      <p class="body">
+        {{ item.desc }}
+      </p>
+      {% endif %}
+    </li>
+
+  {% endfor %}
+</ul>

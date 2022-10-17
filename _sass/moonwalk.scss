@@ -210,7 +210,20 @@ p code, li code {
 .site-title {
   font-size: 2.5em;
   line-height: 1.25;
-  margin-bottom:-0.2rem;
+  margin-bottom: -0.2rem;
+}
+.cv-title {
+  font-size: 3.5em;
+  text-align: center;
+  line-height: 1.25;
+  margin-bottom: -0.2rem;
+}
+.cv-subtitle {
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.25;
+  margin-bottom: -0.2rem;
+  margin-top: 1rem;
 }
 .post-title {
   margin-bottom:-0.2rem;
@@ -231,6 +244,17 @@ p code, li code {
   a:hover {
     color: var(--links);
   }
+}
+.cv-section-title {
+  color: var(--headings);
+  text-decoration: none;
+  display:inline-block;
+  padding-bottom: 0.4em;
+  margin-bottom: 0.5em;
+  background-image: linear-gradient(var(--headings), var(--headings));
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 60% 6px;
 }
 
 .scrollbox{

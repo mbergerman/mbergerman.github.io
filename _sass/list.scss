@@ -71,7 +71,7 @@ ul.horizontal-list {
 }
 
 /* Responsive cards - one column layout on small screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
   ul.horizontal-list li.card {
     width: 100%;
     display: block;
@@ -80,5 +80,52 @@ ul.horizontal-list {
     a, .header {
       font-size: 1em;
     }
+  }
+}
+
+.info-box {
+  padding: 1.2em;
+  width: 26em;
+  height: auto;
+  text-align: left;
+  font-size: 1em;
+  align-items: left;
+  background-color: var(--bg-secondary);
+  margin-bottom: 0.8em;
+
+  .header {
+    color: var(--text);
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .loc {
+    font-style: italic;
+    color: var(--text);
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+  }
+
+  .date {
+    color: var(--headings);
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+  }
+
+  .body {
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    font-size: 1em;
+  }
+}
+
+/* Responsive cards - one column layout on small screens */
+@media screen and (max-width: 1040px) {
+  ul.horizontal-list li.info-box {
+    width: 100%;
+    display: block;
+    margin-bottom: 1em;
+    margin-left: 1em;
   }
 }

@@ -1,0 +1,339 @@
+title:
+  es: Matías Bergerman
+  en: Matías Bergerman
+
+subtitle:
+  es: Estudiante de Ingeniería Electrónica
+  en: Electronics Engineering Student
+
+sections:
+  es:
+    - title: Educación
+      fa-icon: fa-solid fa-graduation-cap
+      items:
+        - title: Instituto Tecnológico de Buenos Aires (ITBA)
+          loc: false
+          date: 2017 - Presente
+          desc: "Ingeniería Electrónica, programa equivalente a Bachelors + Masters en Procesamiento de Señales.
+                Completé 5 de un total de 6 años."
+
+        - title: Escuela Técnica ORT
+          loc: false
+          date: 2011 - 2016
+          desc: "Bachiller Técnico en Electrónica. Graduado con honores. Promedio de último año: 9.3 / 10."
+
+    - title: Experiencia
+      fa-icon: fa-solid fa-briefcase
+      items:
+        - title: Docente ayudante universitario
+          loc: Instituto Tecnológico de Buenos Aires
+          date: Febrero 2022 - Diciembre 2022 (1 año)
+          desc: "Materias:<br>
+                  • Laboratorio de Microcontroladores<br>
+                  • Laboratorio de Electrónica<br>
+                  • Algoritmos y Estructuras de Datos"
+
+        - title: Asistente de investigación en el Centro de I+D en Electrónica Industrial
+          loc: Instituto Tecnológico de Buenos Aires
+          date: Enero 2021 - Enero 2022 (1 año)
+          desc: "Desarrollo de métodos de sincronización con la red eléctrica para la generación distribuída de energía."
+
+        - title: Information Technology Trainee
+          loc: ExxonMobil
+          date: Agosto 2021 - Enero 2022 (6 meses)
+          desc: "Desarrollo de features y solución de problemas en relación con Azure Active Directory."
+
+        - title: Docente de escuela secundaria
+          loc: Escuela Técnica ORT
+          date: 2017-2020 (3 años)
+          desc: "Entrenador para las olimpiadas matemáticas. Docente de la materia Tecnología de 2do año, acerca de conceptos fundamentales de la programación, la electrónica y la robótica."
+
+    - title: Voluntariado
+      fa-icon: fa-solid fa-handshake
+      items:
+        - title: Fundador y Director del capítulo estudiantil de la Sociedad de Robótica y Automatización (RAS) de la IEEE
+          loc: false
+          date: 2022 - Presente
+          desc: " • Dirección del equipo de desarrollo de robótica competitiva de RAS.<br>
+                  • Organización de la Asimov Cup, una competencia de robótica abierta llevada a cabo en el ITBA."
+          
+        - title: Director de Educación en la Rama Estudiantil de la IEEE
+          loc: Instituto Tecnológico de Buenos Aires
+          date: Agosto 2019 - Agosto 2022
+          desc: "Director de un curso de Python organizado por estudiantes. Gestioné la transición a un entorno virtual e impulsé el crecimiento de 100 alumnos presenciales a más de 4400 alumnos virtuales."
+          
+        - title: Miembro del grupo de afinidad IEEE Women in Engineering (WIE)
+          loc: Instituto Tecnológico de Buenos Aires
+          date: Enero 2021 - Febrero 2022
+          desc: "Planificación y organización de actividades, charlas y entrevistas diseñadas para promover la diversidad en el campo de la ingeniería."
+          
+        - title: Voluntario en el IEEE International Conference on Industrial Technology (ICIT)
+          loc: IEEE Industrial Electronics Society (IES)
+          date: Febrero 2020
+          desc: "Voluntario en el congreso académico ICIT 2020 organizado en la Argentina, brindando soporte técnico, preparación de posters e infraestructura, coordinando otros voluntarios y asistiendo a los congresistas participantes."
+          
+    - title: Logros
+      fa-icon: fa-solid fa-trophy
+      items:
+        - title: Campeón de la Robotraffic International Robotics Competition
+          loc: Technion - Instituto Tecnológico de Israel
+          date: 2016
+          desc: "Diseñé y desarrollé con 2 colegas un auto inteligente a escala para la conducción autónoma en el tráfico. Nuestro robot ganó el primer puesto entre más de 30 equipos de 6 países diferentes."
+          
+        - title: Campeonatos Nacionales de Robótica
+          loc: Liga Nacional de Robótica Argentina
+          date: 2014 - 2018
+          desc: "Desarrollé múltiples robots autónomos. Gané campeonatos nacionales de Carreras y Sumo."
+
+        - title: World ORT Social Responsibility Award
+          loc: false
+          date: 2016
+          desc: "Diseñé un dispositivo educativo para ayudar a personas no videntes a aprender el sistema Braille, basado en un sistema electromecánico de puntos que cambian su textura. Nuestro proyecto fue seleccionado entre más de 60 escuelas ORT de todo el mundo."
+
+    - title: Coding
+      fa-icon: fa-solid fa-code
+      items:
+        - title: C / C++
+          loc: false
+          date: false
+          desc: false
+
+        - title: Python
+          loc: false
+          date: false
+          desc: false
+          
+        - title: Programación de Microcontroladores
+          loc: false
+          date: false
+          desc: false
+          
+        - title: Matlab
+          loc: false
+          date: false
+          desc: false
+          
+        - title: Verilog HDL (FPGA)
+          loc: false
+          date: false
+          desc: false
+          
+        - title: Assembly
+          loc: false
+          date: false
+          desc: false
+
+    - title: Software
+      fa-icon: fa-solid fa-desktop
+      items:
+        - title: Altium Designer
+          loc: false
+          date: false
+          desc: false
+
+        - title: LTSpice
+          loc: false
+          date: false
+          desc: false
+          
+        - title: Simulink
+          loc: false
+          date: false
+          desc: false
+          
+        - title: SolidWorks
+          loc: false
+          date: false
+          desc: false
+          
+        - title: LaTex
+          loc: false
+          date: false
+          desc: false
+
+    - title: Idiomas
+      fa-icon: fa-solid fa-language
+      items:
+        - title: Español - Nativo
+          loc: false
+          date: false
+          desc: false
+          
+
+        - title: Inglés - Proficient (C2)
+          loc: "TOEFL iBT score: 113 / 120"
+          date: false
+          desc: false
+          
+    - title: Proyectos
+      fa-icon: fa-solid fa-tools
+      items:
+        - title: Mis proyectos se pueden ver en la <a href="/">página principal</a>.
+          loc: false
+          date: false
+          desc: false
+
+
+  en:
+    - title: Education
+      fa-icon: fa-solid fa-graduation-cap
+      items:
+        - title: Instituto Tecnológico de Buenos Aires (ITBA)
+          loc: false
+          date: 2017 - Present
+          desc: "Electronics Engineering student. Completed 5 out of a 6 year program equivalent to Bachelors + Masters in Signal Processing."
+
+        - title: ORT Argentina Technical School
+          loc: false
+          date: 2011 - 2016
+          desc: "Technical Bachelor in Electronics. Graduated with honors: 9.3 / 10 final year average."
+
+    - title: Experience
+      fa-icon: fa-solid fa-briefcase
+      items:
+        - title: University Teaching Assistant
+          loc: Instituto Tecnológico de Buenos Aires
+          date: February 2022 - December 2022 (1 year)
+          desc: "Courses:<br>
+                  • Microcontroller Laboratory<br>
+                  • Electronics Laboratory<br>
+                  • Algorithms and Data Structures"
+
+        - title: Research Assistant at the R&D Center for Industrial Electronics
+          loc: Instituto Tecnológico de Buenos Aires
+          date: January 2021 - January 2022 (1 year)
+          desc: "Development of an open-source grid synchronization device for distributed power generation"
+
+        - title: Information Technology Trainee
+          loc: ExxonMobil
+          date: August 2021 - January 2022 (6 months)
+          desc: "Development of new features and maintenance of the company's Azure Active Directory infrastructure."
+
+        - title: High-School Teacher
+          loc: ORT Argentina Technical School
+          date: 2017-2020 (3 years)
+          desc: "Coached students for the National Math Olympiad. Taught a 2nd year class on fundamental concepts within technology, programming and electronics."
+
+    - title: Volunteering
+      fa-icon: fa-solid fa-handshake
+      items:
+        - title: Founder and Director of the IEEE Robotics and Automation Society Student Chapter
+          loc: false
+          date: 2022 - Present
+          desc: "Director to the team of student volunteers at RAS, where we develop robots to participate in national competitions. We host our own robotics competition at ITBA and manage the events budget and logistics."
+          
+        - title: Director of Education at the IEEE Student Branch
+          loc: Instituto Tecnológico de Buenos Aires
+          date: August 2019 - August 2022
+          desc: "Lead teacher on a student-organized Python course. Managed the transition to a virtual environment and boosted the number of participants from 100 on-site to over 4400 online."
+          
+        - title: Member of the IEEE Women in Engineering affinity group (WIE)
+          loc: Instituto Tecnológico de Buenos Aires
+          date: January 2021 - February 2022
+          desc: "Organization and planning of activities, talks, and interviews designed to promote diversity in engineering fields."
+          
+        - title: Volunteer at the IEEE International Conference on Industrial Technology (ICIT)
+          loc: IEEE Industrial Electronics Society (IES)
+          date: February 2020
+          desc: "Volunteer at the ICIT 2020 academic congress organized in Argentina. Provided technical support, prepared posters and infrastructure, coordinated other volunteers, and assisted participating speakers."
+
+    - title: Achievements
+      fa-icon: fa-solid fa-trophy
+      items:
+        - title: Campeón de la Robotraffic International Robotics Competition
+          loc: Technion - Israel Institute of Technology
+          date: 2016
+          desc: "Worked with two colleagues to develop a small scale autonomous car for safe driving on a model city road. Our robot won first place amongst over 30 teams from 6 different countries"
+          
+        - title: National Robotics Championships
+          loc: Argentina National Robotics League
+          date: 2014 - 2018
+          desc: "Designed autonomous robots for competition. Won national Racing and Sumo championships."
+
+        - title: World ORT Social Responsibility Award
+          loc: false
+          date: 2016
+          desc: "Designed an electromechanical device of rising dots to help the visually impaired learn the Braille system. Our project was selected amongst projects from over 60 ORT schools from all around the world"
+
+    - title: Coding
+      fa-icon: fa-solid fa-code
+      items:
+        - title: C / C++
+          loc: false
+          date: false
+          desc: false
+
+        - title: Python
+          loc: false
+          date: false
+          desc: false
+          
+        - title: Microcontroller Programming
+          loc: false
+          date: false
+          desc: false
+          
+        - title: Matlab
+          loc: false
+          date: false
+          desc: false
+          
+        - title: Verilog HDL (FPGA)
+          loc: false
+          date: false
+          desc: false
+          
+        - title: Assembly
+          loc: false
+          date: false
+          desc: false
+
+    - title: Software
+      fa-icon: fa-solid fa-desktop
+      items:
+        - title: Altium Designer
+          loc: false
+          date: false
+          desc: false
+
+        - title: LTSpice
+          loc: false
+          date: false
+          desc: false
+          
+        - title: Simulink
+          loc: false
+          date: false
+          desc: false
+          
+        - title: SolidWorks
+          loc: false
+          date: false
+          desc: false
+          
+        - title: LaTex
+          loc: false
+          date: false
+          desc: false
+
+    - title: Languages
+      fa-icon: fa-solid fa-language
+      items:
+        - title: Spanish - Native
+          loc: false
+          date: false
+          desc: false
+          
+
+        - title: English - Proficient (C2)
+          loc: "TOEFL iBT score: 113 / 120"
+          date: false
+          desc: false
+          
+    - title: Projects
+      fa-icon: fa-solid fa-tools
+      items:
+        - title: My projects can be seen on the <a href="/">home page</a>.
+          loc: false
+          date: false
+          desc: false

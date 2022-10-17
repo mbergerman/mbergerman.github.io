@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="row" style="margin-bottom:16px;">
+    <div class="column">
+        {% if page.lang == 'en' %}
+            <a href="{{ "/en/" | relative_url }}">{{ site.theme_config.back_home_text[page.lang] }}</a>
+        {% else %}
+            <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text[page.lang] }}</a>
+        {% endif %}
+    </div>
+    <div class="column" style="float:right;">
+      {% include language_list.html %}
+    </div>
+  </div>
+
+
+{% if page.lang == 'en' %}
+  <h1 class="cv-title">{{ site.data.cv.title.en }}</h1>
+  <h2 class="cv-subtitle">{{ site.data.cv.subtitle.en }}</h2>
+
+  {% for section in site.data.cv.sections.en %}
+    <h2 class="cv-section-title"><i class="{{ section.fa-icon }}"></i> {{ section.title }}</h2>
+    {% include cv_list.html collection= section.items %}
+
+    {% if section.content != false %}
+      {{ section.content }}
+    {% endif %}
+  {% endfor %}
+{% else %}
+  <h1 class="cv-title">{{ site.data.cv.title.es }}</h1>
+  <h2 class="cv-subtitle">{{ site.data.cv.subtitle.es }}</h2>
+
+  {% for section in site.data.cv.sections.es %}
+    <h2 class="cv-section-title"><i class="{{ section.fa-icon }}"></i> {{ section.title }}</h2>
+    {% include cv_list.html collection= section.items %}
+
+    {% if section.content != false %}
+      {{ section.content }}
+    {% endif %}
+  {% endfor %}
+{% endif %}

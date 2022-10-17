@@ -1,11 +1,17 @@
 navbar_entries:
   es:
+    - title: cv
+      url: cv
+
     - title: posts
       url: posts
       
     - title: email
       url: mailto:mbergerman@itba.edu.ar
   en:
+    - title: cv
+      url: /en/cv
+
     - title: posts
       url: /en/posts
       

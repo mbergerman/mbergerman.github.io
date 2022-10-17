@@ -5,12 +5,14 @@ subtitle: # description of the site (multiple lines allowed)
   es: Este es un sitio para compartir algunos de mis proyectos :)<br>
       Me apasiona la electrónica, robótica, programación, matemáticas y la música.<br>
       Estudio <b>Ingeniería Electrónica</b> en el Instituto Tecnológico de Buenos Aires en Argentina.<br>
-      Me especializo en <b>Procesamiento de Señales</b> y actualmente estoy en mi último año de carrera.
+      Me especializo en <b>Procesamiento de Señales</b> y actualmente estoy en mi último año de carrera.<br>
+      Podés leer más acerca de mí en <a href="/cv">esta página</a>.
 
   en: This is a website for sharing some of my projects :)<br>
       I'm passionate about electronics, robotics, coding, mathematics, and music.<br>
       I study <b>Electronics Engineering</b> at the Buenos Aires Institute of Technology (ITBA) in Argentina.<br>
-      I specialise in <b>Signal Processing</b> and currently I am in the last year of my degree.
+      I specialise in <b>Signal Processing</b> and currently I am in the last year of my degree.<br>
+      You can read more about me on  <a href="/en/cv">this page</a>.
 
 google_analytics: G-PS7K9SKRVT
 
