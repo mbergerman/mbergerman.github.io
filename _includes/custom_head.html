@@ -23,3 +23,17 @@
 
   gtag('config', 'G-PS7K9SKRVT');
 </script>
+
+{% if page.title %}
+  <meta property="og:title" content="{{ page.title }}" />
+{% else %}
+  <meta property="og:title" content="{{ site.title }}" />
+{% endif %}
+{% if page.description %}
+  <meta property="og:description" content="{{ page.description }}" />
+{% endif %}
+<meta property="og:url" content="https://mbergerman.github.io{{ page.url }}" />
+<meta property="og:image" content="/images/icon.png" />
+<meta property="og:type" content="website">
+<meta name="author" content="Matías Bergerman">
+<meta name="site_name" content="Matías Bergerman">
