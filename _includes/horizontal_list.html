@@ -4,7 +4,7 @@
       {% if item.url != false %}
         <a href="{{ item.url }}">{{ item.title }}</a>
       {% else %}
-        <p style="margin:0;">{{ item.title }}</p>
+        {{ item.title }}
       {% endif %}
       &nbsp;&nbsp;
     </li>
