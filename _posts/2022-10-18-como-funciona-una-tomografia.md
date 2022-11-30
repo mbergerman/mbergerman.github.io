@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cómo funciona una tomografía - Simulaciones de la transformada de Radón
+title: Simulaciones de la transformada de Radón - Cómo funciona una tomografía
 author: Matías Bergerman
 lang: es
 lang-ref: tomografia
