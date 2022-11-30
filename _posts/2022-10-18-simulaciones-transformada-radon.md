@@ -22,11 +22,15 @@ Simulación de la tomografía de una cabeza y su transformada de Radón.
 
 A modo de ejemplo, para poder comprender esta simulación en una forma más intuitiva, a continuación se muestra la transformada de dos círculos con diferente opacidad. La transformada corresponde con dos curvas senoidales de cierto ancho y con diferente intensidad entre sí.
 
+### (Hacer click en la ventana de simulación para iniciarla)
 <div id="sketch-tomography-dots" style="max-width:800px;"></div>
 
 A continuación a modo de prueba, se realiza la transformada del logo del ITBA. Como se puede ver, es indistinto realizar la transformada rotando el instrumendo de medición o el objeto medido.
 
+### (Hacer click en la ventana de simulación para iniciarla)
 <div id="sketch-tomography-logo" style="max-width:800px;"></div>
+
+### (Hacer click en la ventana de simulación para iniciarla)
 <div id="sketch-tomography-logo2" style="max-width:800px;"></div>
 
 
