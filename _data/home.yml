@@ -35,6 +35,11 @@ project_entries:
       desc: Plataforma que se inclina automáticamente para balancear una bola aplicando control PID.
       image: "images/ball_balancer.jpeg"
 
+    - title: Diseño de una fuente de alimentación Flyback
+      url: fuente-flyback
+      desc: Desarrollo de un convertidor de tipo Flyback para una fuente de alimentación de 30 Watts.
+      image: "images/fuente-flyback.jpg"
+
     - title: Fresadora CNC de diseño propio
       url: fresadora-cnc
       desc: Cortadora de madera CNC diseñada a partir de piezas cortadas por láser e impresas en 3D.
@@ -45,11 +50,6 @@ project_entries:
       desc: Aplicación de Python que implementa el algoritmo LPC en la realización de un vocoder musical.
       highlight: Video
       image: "images/vocoder.png"
-
-    - title: Diseño de una fuente de alimentación Flyback
-      url: fuente-flyback
-      desc: Desarrollo de un convertidor de tipo Flyback para una fuente de alimentación de 30 Watts.
-      image: "images/fuente-flyback.jpg"
 
     - title: Electronic Filter Design Tool
       url: https://github.com/mbergerman/FilterTool
@@ -86,6 +86,11 @@ project_entries:
       desc: Platform which tilts automatically in order to balance a ball with the use of PID control.
       image: "images/ball_balancer.jpeg"
 
+    - title: Design of a Flyback power supply
+      url: flyback-power-supply
+      desc: Development of a Flyback converter for a 30 Watt power supply.
+      image: "images/fuente-flyback.jpg"
+
     - title: Custom-designed CNC milling machine
       url: cnc-mill
       desc: CNC wood mill designed from laser-cut and 3D-printed parts.
@@ -96,12 +101,6 @@ project_entries:
       desc: Python application that implements the LPC algorithm in a musical vocoder.
       highlight: Spanish Video
       image: "images/vocoder.png"
-
-    - title: Flyback power supply design
-      url: /fuente-flyback
-      desc: Development of a Flyback converter for a 30 Watt power supply.
-      highlight: Spanish
-      image: "images/fuente-flyback.jpg"
 
     - title: Electronic Filter Design Tool
       url: https://github.com/mbergerman/FilterTool
