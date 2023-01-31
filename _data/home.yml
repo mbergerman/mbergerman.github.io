@@ -25,6 +25,12 @@ project_entries:
       desc: Procesador RISC de arquitectura Harvard implementado usando Verilog en una FPGA Cyclone IV.
       image: "images/procesador-risc-fpga.png"
 
+    - title: Diseño de un Inverter controlado mediante una FPGA
+      url: en/fpga-controlled-inverter
+      desc: Desarrollo de un Inverter modulado mediante una FPGA que controla un motor trifásico de 125 W.
+      highlight: Inglés
+      image: "images/inverter-fpga.jpg"
+
     - title: Detector adaptativo de arritmias en tiempo real
       url: deteccion-de-arritmias-en-tiempo-real
       desc: Detector de arritmias usando los algoritmos adaptativos LMS y RLS.
@@ -61,12 +67,6 @@ project_entries:
       desc: Una placa capaz de programar microcontroladores PIC, basado en el esquemático provisto por Microchip. 
       highlight: Inglés
       image: "images/pickit2.jpg"
-
-    - title: Cómo construir un robot seguidor de línea con Arduino
-      url: https://www.instructables.com/Line-Follower-Robot-With-Arduino-Really-Fast-and-R/
-      desc: Pasos a seguir para construir de forma simple un robot seguidor de línea lo más veloz posible.
-      highlight: Inglés
-      image: "images/line_follower_arduino.jpg"
   
   en:
     - title: RISC Processor implemented on an FPGA using Verilog
@@ -74,6 +74,11 @@ project_entries:
       desc: RISC Processor with a Harvard architecture implemented using Verilog on a Cyclone IV FPGA.
       highlight: Spanish
       image: "images/procesador-risc-fpga.png"
+
+    - title: FPGA-controlled Inverter design
+      url: fpga-controlled-inverter
+      desc: Development of an Inverter board modulated using an FPGA that controls a 125 W three-phase motor.
+      image: "images/inverter-fpga.jpg"
 
     - title: Real-time adaptative arrhythmia detector
       url: real-time-arrhythmia-detection
@@ -111,11 +116,6 @@ project_entries:
       url: https://www.instructables.com/How-to-Make-a-PIC-Programmer-PicKit-2-clone/
       desc: Module designed to program PIC microcontrollers, based on the schematic provided by Microchip.
       image: "images/pickit2.jpg"
-
-    - title: How to build a line follower robot with Arduino
-      url: https://www.instructables.com/Line-Follower-Robot-With-Arduino-Really-Fast-and-R/
-      desc: Learn how to make a line follower robot, made to follow a race track as fast as possible.
-      image: "images/line_follower_arduino.jpg"
   
 
 other_project_entries:
@@ -124,6 +124,12 @@ other_project_entries:
       url: https://github.com/mbergerman/WaveFormsScopePythonPlotter
       desc: Graficador de señales de osciloscopio provenientes del programa Digilent WaveForms.
       image: "images/waveforms_plot.png"
+
+    - title: Cómo construir un robot seguidor de línea con Arduino
+      url: https://www.instructables.com/Line-Follower-Robot-With-Arduino-Really-Fast-and-R/
+      desc: Pasos a seguir para construir de forma simple un robot seguidor de línea lo más veloz posible.
+      highlight: Inglés
+      image: "images/line_follower_arduino.jpg"
 
     - title: "Robot seguidor de línea analógico "
       url: https://www.instructables.com/Simple-Line-Follower-Robot-With-No-Programming-Ana/
@@ -142,6 +148,11 @@ other_project_entries:
       url: https://github.com/mbergerman/WaveFormsScopePythonPlotter
       desc: Python plotter for CSV files exported by the Digilent WaveForms software.
       image: "images/waveforms_plot.png"
+      
+    - title: How to build a line follower robot with Arduino
+      url: https://www.instructables.com/Line-Follower-Robot-With-Arduino-Really-Fast-and-R/
+      desc: Learn how to make a line follower robot, made to follow a race track as fast as possible.
+      image: "images/line_follower_arduino.jpg"
 
     - title: "Analog Line Follower"
       url: https://www.instructables.com/Simple-Line-Follower-Robot-With-No-Programming-Ana/
