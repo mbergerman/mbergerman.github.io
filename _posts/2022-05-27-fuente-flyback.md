@@ -30,6 +30,21 @@ Sobre este circuito, se agrega un rectificador de tensión de línea a la entrad
    Circuito diseñado.
 </p>
 
+Para la implementación del circuito en un PCB se siguieron las indicaciones dadas por el fabricante del integrado TinySwitch:
+
+<p style="text-align:center">
+   <img src="images/fuente-flyback-images/Recomendaciones PCB.png" alt="" style="background-color:white;width:80%;max-height=30rem;">
+   Recomendaciones de diseño del fabricante.
+</p>
+
+Una imagen del PCB diseñado se puede ver a continuación:
+
+<p style="text-align:center">
+   <img src="images/fuente-flyback-images/Main_PCB.png" alt="" style="background-color:white;width:80%;max-height=30rem;">
+</p>
+<p style="text-align:center">
+   <img src="images/fuente-flyback-images/Main_PCB_3d.png" alt="" style="background-color:white;width:80%;max-height=30rem;">
+</p>
 
 Los principales parámetros de diseño se pueden observar en la Tabla que se ve a continuación. Algunos de estos parámetros debieron ser modificados en forma leve para adecuarse a la disponibilidad de componentes.
 
@@ -363,7 +378,7 @@ En la Figura siguiente se observan las corrientes presentes en el snubber. En el
 
 # Mediciones del transformador
 
-El transformador una vez bobinado fue medido usando el analizador de impedancias del laboratorio. Para verificar la inductancia del devanado primario y secundario se deja abierto el devanado opuesto mientras que para medir la inductancia de dispersión del primario se cortocircuitó el secundario. En la Figura siguiente se puede ver una fotografía de la medición del bobinado secundario; el valor medido se corresponde aproximadamente con el valor teórico calculado de la inductancia $L_2$, tal como se ve en la tabla \ref{tab:resultados-diseño}.
+El transformador una vez bobinado fue medido usando el analizador de impedancias del laboratorio. Para verificar la inductancia del devanado primario y secundario se deja abierto el devanado opuesto mientras que para medir la inductancia de dispersión del primario se cortocircuitó el secundario. En la Figura siguiente se puede ver una fotografía de la medición del bobinado secundario; el valor medido se corresponde aproximadamente con el valor teórico calculado de la inductancia $L_2$, tal como se ve en la tabla de resultados del diseño.
 
 <p style="text-align:center">
    <img src="images/fuente-flyback-images/Medidor de Impedancias.jpeg" alt="" style="max-width:40%;max-height=30rem;">
