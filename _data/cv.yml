@@ -17,10 +17,15 @@ sections:
           desc: "Ingeniería Electrónica, programa equivalente a Bachelors + Masters en Procesamiento de Señales.
                 Completé 5 de un total de 6 años."
 
-        - title: Escuela Técnica ORT
+        - title: Delft University of Technology, Países Bajos
           loc: false
-          date: 2011 - 2016
-          desc: "Bachiller Técnico en Electrónica. Graduado con honores. Promedio de último año: 9.3 / 10."
+          date: 2023
+          desc: "Semestre de intercambio. Materias cursadas:<br>
+                   • High Speed Digital Design for Embedded Systems<br>
+                   • Advanced Digital Image Processing<br>
+                   • Deep Learning<br>
+                   • IC Technology Lab<br>
+                   • High Speed Scientific Computing"
 
     - title: Experiencia
       fa-icon: fa-solid fa-briefcase
@@ -53,7 +58,7 @@ sections:
       items:
         - title: Fundador y Director del capítulo estudiantil de la Sociedad de Robótica y Automatización (RAS) de la IEEE
           loc: false
-          date: 2022 - Presente
+          date: Marzo 2022 - Febrero 2023
           desc: " • Dirección del equipo de desarrollo de robótica competitiva de RAS.<br>
                   • Organización de la Asimov Cup, una competencia de robótica abierta llevada a cabo en el ITBA."
           
@@ -183,10 +188,15 @@ sections:
           date: 2017 - Present
           desc: "Electronics Engineering student. Completed 5 out of a 6 year program equivalent to Bachelors + Masters in Signal Processing."
 
-        - title: ORT Argentina Technical School
+        - title: Delft University of Technology, Netherlands
           loc: false
-          date: 2011 - 2016
-          desc: "Technical Bachelor in Electronics. Graduated with honors: 9.3 / 10 final year average."
+          date: 2023
+          desc: "MSc Semester Exchange. Courses taken:<br>
+                   • High Speed Digital Design for Embedded Systems<br>
+                   • Advanced Digital Image Processing<br>
+                   • Deep Learning<br>
+                   • IC Technology Lab<br>
+                   • High Speed Scientific Computing"
 
     - title: Experience
       fa-icon: fa-solid fa-briefcase
@@ -219,7 +229,7 @@ sections:
       items:
         - title: Founder and Director of the IEEE Robotics and Automation Society Student Chapter
           loc: false
-          date: 2022 - Present
+          date: March 2022 - February 2023
           desc: "Director to the team of student volunteers at RAS, where we develop robots to participate in national competitions. We host our own robotics competition at ITBA and manage the events budget and logistics."
           
         - title: Director of Education at the IEEE Student Branch
