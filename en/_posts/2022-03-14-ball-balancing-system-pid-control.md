@@ -4,6 +4,7 @@ title: Ball balancing system with PID control
 author: Matías Bergerman, Philippe Dutriez, Francisco Ledesma, Xi Lin, Pablo Smolkin
 lang: en
 lang-ref: sistema-de-balanceo-de-bola-control-pid
+featured: true
 ---
 
 > This project was made for the course *22.85 - Control Systems*, at the Buenos Aires Institute of Technology (ITBA).<br>**Professor:** Ing. Víctor Nasini.

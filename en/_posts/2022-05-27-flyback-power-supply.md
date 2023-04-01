@@ -4,6 +4,7 @@ title: Design of a Flyback power supply
 author: Matías Bergerman, Franco Moriconi, Carola Pedrosa, Franco Scapolla
 lang: en
 lang-ref: fuente-flyback
+featured: true
 ---
 
 # Design of the power supply

@@ -4,6 +4,7 @@ title: Procesador RISC implementado en una FPGA
 author: Matías Bergerman, Agustín Galdeman, Franco Moriconi, Carola Pedrosa, Franco Scapolla
 lang: es
 lang-ref: procesador-risc-fpga
+featured: true
 ---
 
 > Este trabajo fue realizado para la materia *22.15 - Electrónica V*, del Instituto Tecnológico de Buenos Aires.<br>**Profesores:** Ing. Andrés Carlos Rodríguez, Ing. Pablo Enrique Wundes.

@@ -4,6 +4,7 @@ title: FPGA-controlled Inverter design
 author: Matías Bergerman, Franco Moriconi, Carola Pedrosa, Franco Scapolla
 lang: en
 lang-ref: inverter-fpga
+featured: true
 ---
 
 # Project overview

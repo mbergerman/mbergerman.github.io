@@ -4,6 +4,7 @@ title: Diseño de una fuente de alimentación Flyback
 author: Matías Bergerman, Franco Moriconi, Carola Pedrosa, Franco Scapolla
 lang: es
 lang-ref: fuente-flyback
+featured: true
 ---
 
 # Diseño de la fuente Flyback

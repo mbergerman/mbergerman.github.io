@@ -4,6 +4,7 @@ title: Implementación de un sistema de balanceo de bola mediante control PID
 author: Matías Bergerman, Philippe Dutriez, Francisco Ledesma, Xi Lin, Pablo Smolkin
 lang: es
 lang-ref: sistema-de-balanceo-de-bola-control-pid
+featured: true
 ---
 
 > Este trabajo fue realizado para la materia *22.85 - Sistemas de Control*, del Instituto Tecnológico de Buenos Aires.<br>**Profesor:** Ing. Víctor Nasini.

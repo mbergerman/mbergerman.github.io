@@ -4,7 +4,6 @@ title: ¿Cuál es la palabra más larga que se puede escribir dando vuelta una c
 author: Matías Bergerman
 lang: es
 lang-ref: palabra-mas-larga-calculadora
-featured: true
 ---
 
 Esta es la pregunta que planteó Tom Scott en los comentarios de [su video](https://youtu.be/zp4BMR88260) donde se pregunta cuál es la palabra más larga que se puede escribir con displays de 7 segmentos, así que se me ocurrió que podía ser una buena idea intentar responder esta pregunta para el idioma español.
