@@ -51,22 +51,21 @@ project_entries:
       desc: Cortadora de madera CNC diseñada a partir de piezas cortadas por láser e impresas en 3D.
       image: "images/fresadora_cnc.png"
 
+    - title: Dispositivo de control de acceso con RTOS conectado a la nube
+      url: control-acceso-rtos
+      desc: Controlador de acceso a un edificio usando tarjetas magnéticas. Implementado usando RTOS en un ARM Cortex MCU.
+      image: "images/control_acceso_rtos.png"
+
+    - title: Placa de desarrollo ARM Cortex para aplicaciones automotrices
+      url: placa-desarrollo-automotriz
+      desc: Placa de desarrollo con bus CAN para proyectos de investigación en la universidad.
+      image: "images/development_board_automotive.png"
+
     - title: Vocoder musical en tiempo real mediante LPC
       url: vocoder-musical-en-tiempo-real
       desc: Aplicación de Python que implementa el algoritmo LPC en la realización de un vocoder musical.
       highlight: Video
       image: "images/vocoder.png"
-
-    - title: Electronic Filter Design Tool
-      url: https://github.com/mbergerman/FilterTool
-      desc: Herramienta para diseñar filtros a partir del uso de celdas con amplificadores operacionales.
-      image: "images/filter_tool.png"
-
-    - title: Programador para PIC basado en el PICKit 2
-      url: https://www.instructables.com/How-to-Make-a-PIC-Programmer-PicKit-2-clone/
-      desc: Una placa capaz de programar microcontroladores PIC, basado en el esquemático provisto por Microchip. 
-      highlight: Inglés
-      image: "images/pickit2.jpg"
   
   en:
     - title: RISC Processor implemented on an FPGA using Verilog
@@ -100,26 +99,37 @@ project_entries:
       url: cnc-mill
       desc: CNC wood mill designed from laser-cut and 3D-printed parts.
       image: "images/fresadora_cnc.png"
+      
+    - title: Cloud-connected building access control device with RTOS
+      url: access-control-rtos
+      desc: Device that manages access to a building using magnetic cards. Developed using RTOS on an ARM Cortex MCU.
+      image: "images/control_acceso_rtos.png"
+
+    - title: ARM Cortex custom development board for automotive applications
+      url: development-board-automotive
+      desc: Development board with a CAN bus for automotive research projects in the university.
+      image: "images/development_board_automotive.png"
 
     - title: Real-time musical Vocoder using LPC
       url: real-time-music-vocoder
       desc: Python application that implements the LPC algorithm in a musical vocoder.
       highlight: Spanish Video
       image: "images/vocoder.png"
-
-    - title: Electronic Filter Design Tool
-      url: https://github.com/mbergerman/FilterTool
-      desc: Tool for designing electronic filters by combining operational amplifier cells.
-      image: "images/filter_tool.png"
-
-    - title: PIC programmer, based on the PICKit 2
-      url: https://www.instructables.com/How-to-Make-a-PIC-Programmer-PicKit-2-clone/
-      desc: Module designed to program PIC microcontrollers, based on the schematic provided by Microchip.
-      image: "images/pickit2.jpg"
   
 
 other_project_entries:
   es:
+    - title: Electronic Filter Design Tool
+      url: https://github.com/mbergerman/FilterTool
+      desc: Herramienta para diseñar filtros a partir del uso de celdas con amplificadores operacionales.
+      image: "images/filter_tool.png"
+
+    - title: Programador para PIC basado en el PICKit 2
+      url: https://www.instructables.com/How-to-Make-a-PIC-Programmer-PicKit-2-clone/
+      desc: Una placa capaz de programar microcontroladores PIC, basado en el esquemático provisto por Microchip. 
+      highlight: Inglés
+      image: "images/pickit2.jpg"
+
     - title: WaveForms Scope Python Plotter
       url: https://github.com/mbergerman/WaveFormsScopePythonPlotter
       desc: Graficador de señales de osciloscopio provenientes del programa Digilent WaveForms.
@@ -131,7 +141,7 @@ other_project_entries:
       highlight: Inglés
       image: "images/line_follower_arduino.jpg"
 
-    - title: "Robot seguidor de línea analógico "
+    - title: "Robot seguidor de línea analógico"
       url: https://www.instructables.com/Simple-Line-Follower-Robot-With-No-Programming-Ana/
       desc: Este robot sigue una linea en el piso sin requerir programación, simplemente usa un circuito electrónico.
       highlight: Inglés
@@ -144,6 +154,16 @@ other_project_entries:
       image: "images/CalcuPy.png"
 
   en:
+    - title: Electronic Filter Design Tool
+      url: https://github.com/mbergerman/FilterTool
+      desc: Tool for designing electronic filters by combining operational amplifier cells.
+      image: "images/filter_tool.png"
+
+    - title: PIC programmer, based on the PICKit 2
+      url: https://www.instructables.com/How-to-Make-a-PIC-Programmer-PicKit-2-clone/
+      desc: Module designed to program PIC microcontrollers, based on the schematic provided by Microchip.
+      image: "images/pickit2.jpg"
+
     - title: WaveForms Scope Python Plotter
       url: https://github.com/mbergerman/WaveFormsScopePythonPlotter
       desc: Python plotter for CSV files exported by the Digilent WaveForms software.
