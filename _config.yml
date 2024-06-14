@@ -4,14 +4,12 @@ url: https://mbergerman.github.io/ # root address of the site
 subtitle: # description of the site (multiple lines allowed)
   es: Este es un sitio para compartir algunos de mis proyectos :)<br>
       Me apasiona la electrónica, robótica, programación, matemáticas y la música.<br>
-      Estudio <b>Ingeniería Electrónica</b> en el Instituto Tecnológico de Buenos Aires en Argentina.<br>
-      Me especializo en <b>Procesamiento de Señales</b> y actualmente estoy en mi último año de carrera.<br>
+      Me gradué en <b>Ingeniería Electrónica</b> en el Instituto Tecnológico de Buenos Aires (ITBA) en Argentina con especialización en <b>Procesamiento de Señales</b>.<br>
       Podés leer más acerca de mí en <a href="/cv">esta página</a>.
 
   en: This is a website for sharing some of my projects :)<br>
       I'm passionate about electronics, robotics, coding, mathematics, and music.<br>
-      I study <b>Electronics Engineering</b> at the Buenos Aires Institute of Technology (ITBA) in Argentina.<br>
-      I specialise in <b>Signal Processing</b> and currently I am in the last year of my degree.<br>
+      I graduated as an <b>Electronics Engineer</b> at the Buenos Aires Institute of Technology (ITBA) in Argentina specializing in <b>Signal Processing</b>.<br>
       You can read more about me on  <a href="/en/cv">this page</a>.
 
 google_analytics: G-PS7K9SKRVT
@@ -27,8 +25,8 @@ theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"
   appearance_toggle: true # if appearance can be switched by user
   back_home_text: # customize text for homepage link in post layout
-    es: "volver atrás.."
-    en: "go back.."
+    es: "volver atrás..."
+    en: "go back..."
   date_format: "%d-%m-%Y" # customize how date is formatted
   show_description: true # show blog description
   show_navbar: true # show horizontal navbar
