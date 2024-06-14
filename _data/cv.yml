@@ -3,8 +3,8 @@ title:
   en: Matías Bergerman
 
 subtitle:
-  es: Estudiante de Ingeniería Electrónica
-  en: Electronics Engineering Student
+  es: Ingeniero Electrónico
+  en: Electronics Engineer
 
 sections:
   es:
@@ -13,74 +13,89 @@ sections:
       items:
         - title: Instituto Tecnológico de Buenos Aires (ITBA)
           loc: false
-          date: 2017 - Presente
-          desc: "Ingeniería Electrónica, programa equivalente a Bachelors + Masters en Procesamiento de Señales.
-                Completé 5 de un total de 6 años."
+          date: 2019 - 2024
+          desc: "Graduado de Ingeniería Electrónica, promedio de 8,3.<br>
+                 Completé un programa de 6 años equivalente a Bachelors + Masters en Procesamiento de Señales."
 
-        - title: Delft University of Technology, Países Bajos
-          loc: false
+        - title: Delft University of Technology
+          loc: Delft, Países Bajos
           date: 2023
-          desc: "Semestre de intercambio. Materias cursadas:<br>
+          desc: "Semestre de intercambio de Master. Materias cursadas:<br>
                    • High Speed Digital Design for Embedded Systems<br>
                    • Advanced Digital Image Processing<br>
                    • Deep Learning<br>
                    • IC Technology Lab<br>
                    • High Speed Scientific Computing"
 
+        - title: Universidad Tecnológica Nacional (UTN)
+          loc: Buenos Aires, Argentina
+          date: 2017 - 2018
+          desc: "Ingeniería Electrónica, me transferí a ITBA."
+
     - title: Experiencia
       fa-icon: fa-solid fa-briefcase
       items:
-        - title: Docente ayudante universitario
-          loc: Instituto Tecnológico de Buenos Aires
-          date: Febrero 2022 - Diciembre 2022 (1 año)
+        - title: Ingeniero en Hardware
+          loc: Novo Space
+          date: 2023 - Presente
+          desc: "Novo Space es una start-up que desarrolla electrónica modular de alto rendimiento y tolerante a la radiación para la industria aeroespacial.<br>
+                • Como ingeniero de hardware, participo en el diseño de circuitos, simulación de circuitos y diseño de PCB.<br>
+                • He diseñado productos con diversas interfaces de alta velocidad, incluyendo SerDes, SpaceWire, Gigabit Ethernet y ONFI."
+
+        - title: Profesor ayudante universitario
+          loc: Instituto Tecnológico de Buenos Aires (ITBA)
+          date: 2024 - Presente
+          desc: "• Laboratorio de Microcontroladores<br>
+                 Temario: arquitectura de firmware, drivers, RTOS, periféricos (DMA, ADC, etc.), protocolos de comunicación (UART, I2C, SPI, CAN)."
+
+        - title: Asistente de investigación estudiantil
+          loc: Centro de I+D en Electrónica Industrial del ITBA
+          date: 2021 - 2022
+          desc: "• Diseñé un convertidor DCDC flyback con múltiples secundarios (+125V/+25V/-25V).<br>
+                 • Desarrollé un dispositivo basado en una FPGA de sincronización con la red eléctrica para la generación distribuída de energía.<br>
+                 • Diseñé una placa de desarrollo basada en un ARM Cortex para aplicaciones automotrices."
+
+        - title: Ayudante alumno universitario
+          loc: Instituto Tecnológico de Buenos Aires (ITBA)
+          date: 2022
           desc: "Materias:<br>
                   • Laboratorio de Microcontroladores<br>
                   • Laboratorio de Electrónica<br>
                   • Algoritmos y Estructuras de Datos"
 
-        - title: Asistente de investigación en el Centro de I+D en Electrónica Industrial
-          loc: Instituto Tecnológico de Buenos Aires
-          date: Enero 2021 - Enero 2022 (1 año)
-          desc: "Desarrollo de métodos de sincronización con la red eléctrica para la generación distribuída de energía."
-
         - title: Information Technology Trainee
           loc: ExxonMobil
-          date: Agosto 2021 - Enero 2022 (6 meses)
+          date: 2021
           desc: "Desarrollo de features y solución de problemas en relación con Azure Active Directory."
 
         - title: Docente de escuela secundaria
           loc: Escuela Técnica ORT
-          date: 2017-2020 (3 años)
+          date: 2017 - 2020 
           desc: "Entrenador para las olimpiadas matemáticas. Docente de la materia Tecnología de 2do año, acerca de conceptos fundamentales de la programación, la electrónica y la robótica."
 
     - title: Voluntariado
       fa-icon: fa-solid fa-handshake
       items:
         - title: Fundador y Director del capítulo estudiantil de la Sociedad de Robótica y Automatización (RAS) de la IEEE
-          loc: false
-          date: Marzo 2022 - Febrero 2023
+          loc: Instituto Tecnológico de Buenos Aires (ITBA)
+          date: 2022 - 2023
           desc: " • Dirección del equipo de desarrollo de robótica competitiva de RAS.<br>
                   • Organización de la Asimov Cup, una competencia de robótica abierta llevada a cabo en el ITBA."
           
         - title: Director de Educación en la Rama Estudiantil de la IEEE
-          loc: Instituto Tecnológico de Buenos Aires
-          date: Agosto 2019 - Agosto 2022
+          loc: Instituto Tecnológico de Buenos Aires (ITBA)
+          date: 2019 - 2022
           desc: "Director de un curso de Python organizado por estudiantes. Gestioné la transición a un entorno virtual e impulsé el crecimiento de 100 alumnos presenciales a más de 4400 alumnos virtuales."
           
         - title: Miembro del grupo de afinidad IEEE Women in Engineering (WIE)
-          loc: Instituto Tecnológico de Buenos Aires
-          date: Enero 2021 - Febrero 2022
+          loc: Instituto Tecnológico de Buenos Aires (ITBA)
+          date: 2021 - 2022
           desc: "Planificación y organización de actividades, charlas y entrevistas diseñadas para promover la diversidad en el campo de la ingeniería."
-          
-        - title: Voluntario en el IEEE International Conference on Industrial Technology (ICIT)
-          loc: IEEE Industrial Electronics Society (IES)
-          date: Febrero 2020
-          desc: "Voluntario en el congreso académico ICIT 2020 organizado en la Argentina, brindando soporte técnico, preparación de posters e infraestructura, coordinando otros voluntarios y asistiendo a los congresistas participantes."
           
     - title: Logros
       fa-icon: fa-solid fa-trophy
       items:
-        - title: Campeón de la Robotraffic International Robotics Competition
+        - title: Primer puesto en la Robotraffic International Robotics Competition
           loc: Technion - Instituto Tecnológico de Israel
           date: 2016
           desc: "Diseñé y desarrollé con 2 colegas un auto inteligente a escala para la conducción autónoma en el tráfico. Nuestro robot ganó el primer puesto entre más de 30 equipos de 6 países diferentes."
@@ -91,7 +106,7 @@ sections:
           desc: "Desarrollé múltiples robots autónomos. Gané campeonatos nacionales de Carreras y Sumo."
 
         - title: World ORT Social Responsibility Award
-          loc: false
+          loc: World ORT
           date: 2016
           desc: "Diseñé un dispositivo educativo para ayudar a personas no videntes a aprender el sistema Braille, basado en un sistema electromecánico de puntos que cambian su textura. Nuestro proyecto fue seleccionado entre más de 60 escuelas ORT de todo el mundo."
 
@@ -113,7 +128,7 @@ sections:
           date: false
           desc: false
           
-        - title: Matlab
+        - title: MATLAB
           loc: false
           date: false
           desc: false
@@ -151,7 +166,12 @@ sections:
           date: false
           desc: false
           
-        - title: LaTex
+        - title: LaTeX
+          loc: false
+          date: false
+          desc: false
+          
+        - title: MS Office
           loc: false
           date: false
           desc: false
@@ -184,12 +204,13 @@ sections:
       fa-icon: fa-solid fa-graduation-cap
       items:
         - title: Instituto Tecnológico de Buenos Aires (ITBA)
-          loc: false
-          date: 2017 - Present
-          desc: "Electronics Engineering student. Completed 5 out of a 6 year program equivalent to Bachelors + Masters in Signal Processing."
+          loc: Buenos Aires, Argentina
+          date: 2019 - 2024
+          desc: "Electronics Engineering degree, 8.3 grade average.<br>
+                 Completed a six-year program equivalent to Bachelors + Masters in Signal Processing."
 
-        - title: Delft University of Technology, Netherlands
-          loc: false
+        - title: Delft University of Technology
+          loc: Delft, The Netherlands
           date: 2023
           desc: "MSc Semester Exchange. Courses taken:<br>
                    • High Speed Digital Design for Embedded Systems<br>
@@ -198,59 +219,75 @@ sections:
                    • IC Technology Lab<br>
                    • High Speed Scientific Computing"
 
+        - title: Universidad Tecnológica Nacional (UTN)
+          loc: Buenos Aires, Argentina
+          date: 2017 - 2018
+          desc: "Electronics Engineering, transferred to ITBA."
+
+
     - title: Experience
       fa-icon: fa-solid fa-briefcase
       items:
-        - title: University Teaching Assistant
-          loc: Instituto Tecnológico de Buenos Aires
-          date: February 2022 - December 2022 (1 year)
+        - title: Hardware Engineer
+          loc: Novo Space
+          date: 2023 - Present
+          desc: "Novo Space is a start-up developing high-performance, radiation-tolerant, modular electronics for the aerospace industry.<br>
+                  • As a hardware engineer I am involved in circuit design, simulation and PCB layout.<br>
+                  • Designed products with various high-speed interfaces, including SerDes, SpaceWire, Gigabit Ethernet and ONFI.<br>"
+
+        - title: Assistant Professor
+          loc: Instituto Tecnológico de Buenos Aires (ITBA)
+          date: 2024 - Present
+          desc: "• Embedded Systems course.<br>
+                   Topics: firmware architecture, drivers, RTOS, peripherals (DMA, ADC, etc.), communication protocols (UART, I2C, SPI, CAN)."
+
+        - title: Student Research Assistant
+          loc: R&D Center for Industrial Electronics at ITBA
+          date: 2021 - 2022
+          desc: "• Designed a flyback DCDC converter with multiple secondaries (+125V/+25V/-25V).<br>
+                 • Developed an FPGA grid synchronization device for distributed power generation.<br>
+                 • Designed an ARM Cortex custom development board for automotive applications."
+
+        - title: Student Teaching Assistant
+          loc: Instituto Tecnológico de Buenos Aires (ITBA)
+          date: 2022
           desc: "Courses:<br>
-                  • Microcontroller Laboratory<br>
+                  • Embedded Systems<br>
                   • Electronics Laboratory<br>
                   • Algorithms and Data Structures"
 
-        - title: Research Assistant at the R&D Center for Industrial Electronics
-          loc: Instituto Tecnológico de Buenos Aires
-          date: January 2021 - January 2022 (1 year)
-          desc: "Development of an open-source grid synchronization device for distributed power generation"
-
         - title: Information Technology Trainee
           loc: ExxonMobil
-          date: August 2021 - January 2022 (6 months)
-          desc: "Development of new features and maintenance of the company's Azure Active Directory infrastructure."
+          date: 2021
+          desc: "Development of new features for the company's Azure Active Directory infrastructure."
 
         - title: High-School Teacher
           loc: ORT Argentina Technical School
-          date: 2017-2020 (3 years)
+          date: 2017 - 2020
           desc: "Coached students for the National Math Olympiad. Taught a 2nd year class on fundamental concepts within technology, programming and electronics."
 
     - title: Volunteering
       fa-icon: fa-solid fa-handshake
       items:
         - title: Founder and Director of the IEEE Robotics and Automation Society Student Chapter
-          loc: false
-          date: March 2022 - February 2023
+          loc: Instituto Tecnológico de Buenos Aires (ITBA)
+          date: 2022 - 2023
           desc: "Director to the team of student volunteers at RAS, where we develop robots to participate in national competitions. We host our own robotics competition at ITBA and manage the events budget and logistics."
           
         - title: Director of Education at the IEEE Student Branch
-          loc: Instituto Tecnológico de Buenos Aires
+          loc: Instituto Tecnológico de Buenos Aires (ITBA)
           date: August 2019 - August 2022
-          desc: "Lead teacher on a student-organized Python course. Managed the transition to a virtual environment and boosted the number of participants from 100 on-site to over 4400 online."
+          desc: "Lead teacher on a student-organized Python course for over 10,000 online students."
           
         - title: Member of the IEEE Women in Engineering affinity group (WIE)
-          loc: Instituto Tecnológico de Buenos Aires
+          loc: Instituto Tecnológico de Buenos Aires (ITBA)
           date: January 2021 - February 2022
           desc: "Organization and planning of activities, talks, and interviews designed to promote diversity in engineering fields."
           
-        - title: Volunteer at the IEEE International Conference on Industrial Technology (ICIT)
-          loc: IEEE Industrial Electronics Society (IES)
-          date: February 2020
-          desc: "Volunteer at the ICIT 2020 academic congress organized in Argentina. Provided technical support, prepared posters and infrastructure, coordinated other volunteers, and assisted participating speakers."
-
     - title: Achievements
       fa-icon: fa-solid fa-trophy
       items:
-        - title: Campeón de la Robotraffic International Robotics Competition
+        - title: First Place in the Robotraffic International Robotics Competition
           loc: Technion - Israel Institute of Technology
           date: 2016
           desc: "Worked with two colleagues to develop a small scale autonomous car for safe driving on a model city road. Our robot won first place amongst over 30 teams from 6 different countries"
@@ -261,7 +298,7 @@ sections:
           desc: "Designed autonomous robots for competition. Won national Racing and Sumo championships."
 
         - title: World ORT Social Responsibility Award
-          loc: false
+          loc: World ORT
           date: 2016
           desc: "Designed an electromechanical device of rising dots to help the visually impaired learn the Braille system. Our project was selected amongst projects from over 60 ORT schools from all around the world"
 
@@ -283,7 +320,7 @@ sections:
           date: false
           desc: false
           
-        - title: Matlab
+        - title: MATLAB
           loc: false
           date: false
           desc: false
@@ -321,7 +358,12 @@ sections:
           date: false
           desc: false
           
-        - title: LaTex
+        - title: LaTeX
+          loc: false
+          date: false
+          desc: false
+          
+        - title: MS Office
           loc: false
           date: false
           desc: false
