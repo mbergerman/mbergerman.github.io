@@ -64,6 +64,16 @@ ul.horizontal-list {
     height: 1px;
     background-color: var(--text);
   }
+
+  a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+  a .header, a .body, a img {
+    display: block;
+    width: 100%;
+  }
 }
 
 .card:hover{
