@@ -3,13 +3,13 @@ author: Matías Bergerman
 url: https://mbergerman.github.io/ # root address of the site
 subtitle: # description of the site (multiple lines allowed)
   es: Este es un sitio para compartir algunos de mis proyectos :)<br>
-      Me apasiona la electrónica, robótica, programación, matemáticas y la música.<br>
-      Me gradué en <b>Ingeniería Electrónica</b> en el Instituto Tecnológico de Buenos Aires (ITBA) en Argentina con especialización en <b>Procesamiento de Señales</b>.<br>
+      Me apasiona la electrónica, la ciencia, el espacio, los sistemas embebidos, la programación y la música.<br>
+      Me gradué en <b>Ingeniería Electrónica</b> en el Instituto Tecnológico de Buenos Aires (ITBA) con especialización en <b>Procesamiento de Señales</b>.<br>
       Podés leer más acerca de mí en <a href="/cv">esta página</a>.
 
   en: This is a website for sharing some of my projects :)<br>
-      I'm passionate about electronics, robotics, coding, mathematics, and music.<br>
-      I graduated as an <b>Electronics Engineer</b> at the Buenos Aires Institute of Technology (ITBA) in Argentina specializing in <b>Signal Processing</b>.<br>
+      I'm passionate about electronics, science, space, embedded systems, coding, and music.<br>
+      I graduated as an <b>Electronics Engineer</b> at the Buenos Aires Institute of Technology (ITBA) specializing in <b>Signal Processing</b>.<br>
       You can read more about me on  <a href="/en/cv">this page</a>.
 
 google_analytics: G-PS7K9SKRVT
