@@ -211,8 +211,9 @@ UC1 Block.
 ### Conflict resolution: UC2 Block
 Another fundamental block for the operation of the processor is the UC2 block, which is in charge of resolving the dependencies between instructions, and in case of finding conflicts between them, it triggers the Hold signal to wait for the pipeline to be emptied and thus avoid errors in the programs. To evaluate if there are conflicts between instructions, the signals *Type2*, *Type3*, *Type4* and *Type5*, *SelA2*, *SelB2*, *SelC3*, *SelC4* and *SelC5* are received.  The *Type* signals reference which registers are written and read by each instruction. The order and naming for each bit used was as follows: 
 
-
+<div class="scrollbox">
 $$T_i = [b_j^i \quad b_{CW}^i \quad b_{CR}^i \quad b_{RW}^i \quad b_{RR}^i \quad b_{WW}^i \quad b_{WR}^i ]$$
+</div>
 
 $$T_i$$ corresponds to the i-th *Type* signal, b is each bit with its subscripts representing the interaction with each register (J for the PC, R for general purpose registers and W for the working register). 
 

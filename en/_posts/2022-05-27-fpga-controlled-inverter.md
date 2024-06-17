@@ -11,7 +11,7 @@ featured: true
 
 The goal of this project is to design an Inverter board in order to control a 125 W three-phase motor from the 220 V power line. This design uses IR2110 MOSFET drivers, and the modulation is performed with a stand-alone board called UPduino 3 which features a Lattice UltraPlus ICE40UP5K FPGA.
 
-<video width="640" height="360" controls preload>
+<video style="width: 100%;" controls preload>
   <source src="/assets/files/inverter-fpga-files/inverter-fpga.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>

@@ -139,6 +139,7 @@ a {
   background-repeat: no-repeat;
   background-size: 0% 2px;
   transition: background-size 250ms;
+  word-wrap:break-word;
 }
 *:target { background-color: var(--bg-secondary); }
 
