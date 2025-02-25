@@ -71,7 +71,7 @@ These are the main features of the device:
 <img src="/images/candle-board/box-photo-2.png" width="45%"/>
 </p>
 
-## Prototype mounted on the go-kart
+## Prototype mounted on an experimental go-kart
 
 <p style="text-align:center">
 <img src="/images/candle-board/karting-photo-1.jpg" width="80%"/>
