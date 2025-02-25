@@ -385,7 +385,7 @@ sections:
     - title: Projects
       fa-icon: fa-solid fa-tools
       items:
-        - title: My projects can be seen on the <a href="/">home page</a>.
+        - title: My projects can be seen on the <a href="/en">home page</a>.
           loc: false
           date: false
           desc: false
