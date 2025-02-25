@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CAN Data Logger Electronics Board (CANDLE) 
-author: Matías Bergerman, Xi Lin, Pablo Smolkin, María Luz Stewart
+author: Matías Bergerman, Xi Lin, Pablo Smolkin, María Luz Stewart Harris
 lang: en
 lang-ref: candle
 ---
@@ -49,10 +49,12 @@ These are the main features of the device:
     <img src="/images/candle-board/firmware-architecture.png" alt="Firmware Architecture" style="width:60%">
 </p>
 
-## Realistic view
+## Realistic views
 
 <p style="text-align:center">
-<img src="/images/candle-board/PCB_3D_Top.png" width="45%"/> <img src="/images/candle-board/PCB_3D_Bottom.png" width="45%"/> 
+<img src="/images/candle-board/PCB_3D_Top.png" width="45%"/>
+<br>
+<img src="/images/candle-board/PCB_3D_Bottom.png" width="45%"/> 
 </p>
 
 ## Box assembly
@@ -64,7 +66,9 @@ These are the main features of the device:
 ## Pictures of the finished prototype
 
 <p style="text-align:center">
-<img src="/images/candle-board/box-photo-1.png" width="45%"/> <img src="/images/candle-board/box-photo-2.png" width="45%"/>
+<img src="/images/candle-board/box-photo-1.png" width="45%"/>
+<br>
+<img src="/images/candle-board/box-photo-2.png" width="45%"/>
 </p>
 
 ## Prototype mounted on the go-kart

@@ -25,16 +25,17 @@ project_entries:
       desc: Procesador RISC con arquitectura de pipeline implementado usando Verilog en una FPGA Cyclone IV.
       image: "images/procesador-risc-fpga.png"
 
+    - title: CAN Bus Data Logger basado en ARM Cortex
+      url: en/can-data-logger
+      desc: CAN Data Logger con almacenamiento SD y conexión USB, implementado en un ARM Cortex.
+      highlight: Inglés
+      image: "images/candle-board.jpg"
+
     - title: Diseño de un Inverter controlado mediante una FPGA
       url: en/fpga-controlled-inverter
       desc: Desarrollo de un Inverter modulado mediante una FPGA que controla un motor trifásico de 125 W.
       highlight: Inglés
       image: "images/inverter-fpga.jpg"
-
-    - title: Diseño de una fuente de alimentación Flyback
-      url: fuente-flyback
-      desc: Desarrollo de un convertidor de tipo Flyback para una fuente de alimentación de 30 Watts.
-      image: "images/fuente-flyback.jpg"
 
     - title: Detector adaptativo de arritmias en tiempo real
       url: deteccion-de-arritmias-en-tiempo-real
@@ -45,6 +46,11 @@ project_entries:
       url: sistema-de-balanceo-de-bola-control-pid
       desc: Plataforma que se inclina automáticamente para balancear una bola aplicando control PID.
       image: "images/ball_balancer.jpeg"
+
+    - title: Diseño de una fuente de alimentación Flyback
+      url: fuente-flyback
+      desc: Desarrollo de un convertidor de tipo Flyback para una fuente de alimentación de 30 Watts.
+      image: "images/fuente-flyback.jpg"
 
     - title: Fresadora CNC de diseño propio
       url: fresadora-cnc
@@ -73,15 +79,15 @@ project_entries:
       desc: RISC processor with a pipelined architecture implemented using Verilog on a Cyclone IV FPGA.
       image: "images/procesador-risc-fpga.png"
 
+    - title: CAN Bus Data Logger based on ARM Cortex
+      url: can-data-logger
+      desc: CAN Data Logger with SD Card and USB connection, implemented on ARM Cortex.
+      image: "images/candle-board.jpg"
+
     - title: FPGA-controlled Inverter design
       url: fpga-controlled-inverter
       desc: Development of an Inverter board modulated using an FPGA that controls a 125 W three-phase motor.
       image: "images/inverter-fpga.jpg"
-
-    - title: Design of a Flyback power supply
-      url: flyback-power-supply
-      desc: Development of a Flyback converter for a 30 Watt power supply.
-      image: "images/fuente-flyback.jpg"
 
     - title: Real-time adaptative arrhythmia detector
       url: real-time-arrhythmia-detection
@@ -93,6 +99,11 @@ project_entries:
       url: ball-balancing-system-pid-control
       desc: Platform which tilts automatically in order to balance a ball with the use of PID control.
       image: "images/ball_balancer.jpeg"
+
+    - title: Design of a Flyback power supply
+      url: flyback-power-supply
+      desc: Development of a Flyback converter for a 30 Watt power supply.
+      image: "images/fuente-flyback.jpg"
 
     - title: Custom-designed CNC milling machine
       url: cnc-mill
